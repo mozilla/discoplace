@@ -15,20 +15,44 @@ define(
         'log',
         'navigation',
         'templates',
+        'utils',
         'z'
     ],
 function() {
+    var capabilities = require('capabilities');
     var console = require('log')('main');
+    var start_time = performance.now();
+    var utils = require('utils');
     var z = require('z');
 
     console.log('Dependencies resolved, starting init');
 
     z.body.addClass('html-' + require('l10n').getDirection());
 
+    z.page.one('loaded', function() {
+        // Remove the splash screen.
+        console.log('Hiding splash screen (' + ((performance.now() - start_time) / 1000).toFixed(6) + 's)');
+        var splash = $('#splash-overlay').addClass('hide');
+        z.body.removeClass('overlayed').addClass('loaded');
+        setTimeout(function() {
+            z.page.trigger('splash_removed');
+            splash.remove();
+        }, 1500);
+    });
+
+    // Clear search field when 'clear' link is clicked.
+    $('#site-header').on('click', '.search-clear', utils._pd(function() {
+        if ($(this).hasClass('search-clear')) {
+            $('#search-q').val('').trigger('focus');
+        }
+    }));
+
     // Do some last minute template compilation.
     z.page.on('reload_chrome', function() {
         console.log('Reloading chrome');
         var nunjucks = require('templates');
+        $('#site-header').html(
+            nunjucks.env.render('header.html'));
         $('#site-footer').html(
             nunjucks.env.render('footer.html'));
 

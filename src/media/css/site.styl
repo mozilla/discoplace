@@ -23,7 +23,7 @@ body {
   color: $castle-skull-gray;
 }
 
-.container {
+#page, header {
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -31,17 +31,21 @@ body {
   max-width: 70rem;
 }
 
-section {
+section, header h1, header form {
   min-width: 15rem;
   padding: 1rem;
 }
 
-.main {
+.main, header h1 {
   flex: 2;
 }
 
-.sidebar {
+.sidebar, header form {
   flex: 1; 
+}
+
+header form {
+  text-align: right;
 }
 
 section > div {
@@ -69,4 +73,8 @@ section > div {
 
 footer {
   padding: 1rem 8rem;
+}
+
+.main .listing li.item { /* quick & dirty override of listing.styl style, invert the margin */
+  margin: 0 0 25px 0;
 }
