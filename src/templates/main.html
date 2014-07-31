@@ -29,6 +29,33 @@
         </div>
     </div>
 
+    <div class="newsletter-promo">
+        <h3> Newsletter Headline </h3>
+        <p> Epudae rest aboria solori ulloreriasi que
+        net aut aut lam recestrum. Non est quundi
+        rernati re sumi. Epudae rest aboria solori
+        ulloreriasi que net aut aut lam recestrum. </p>
+        <form class="news-signup-form">
+            <p>
+                <input placeholder="{{ _('Enter your email...') }}" type="email" id="email" name="email" value="{{ email }}" required>
+                <button class="button" type="submit">{{ _('Sign up') }}</button>
+            </p>
+            <p class="privacy">
+                <a href="/privacy-policy" target="_parent">{{ _('Privacy Policy') }}</a>
+            </p>
+        </form>
+        <p class="fullup processing hidden">
+            <span>{{ _('Signing up...') }}</span>
+            <span class="spinner alt"></span>
+        </p>
+        <p class="fullup finished hidden">
+            {{ _('You were successfully signed up for the Marketplace newsletter!') }}
+        </p>
+        <p class="fullup error hidden">
+            {{ _('There was an error submitting your newsletter sign up request. Please try again later.') }}
+        </p>
+    </div>
+
     <div>
         <h3> FEATURED APP </h3>
         <p> Short app description goes here.
@@ -37,6 +64,7 @@
         </p>
         <p> <a href="#">Download [app name]</a> </p>
     </div>
+
     <div>
         <h3> Firefox Account Headline </h3>
         <p> Epudae rest aboria solori ulloreriasi que
@@ -45,12 +73,5 @@
         ulloreriasi que net aut aut lam recestrum. </p>
         </p>
         <p> <a href="#">Sign up for a Firefox Account</a> </p>
-    </div>
-    <div>
-        <h3> Newsletter Headline </h3>
-        <p> Epudae rest aboria solori ulloreriasi que
-        net aut aut lam recestrum. Non est quundi
-        rernati re sumi. Epudae rest aboria solori
-        ulloreriasi que net aut aut lam recestrum. </p>
     </div>
 </section>
