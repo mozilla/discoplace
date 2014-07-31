@@ -19,7 +19,9 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         param_whitelist: ['q', 'sort'],
         api_param_blacklist: null,
-        api_cdn_whitelist: {},
+        api_cdn_whitelist: {
+            '/api/v1/fireplace/collection/desktop-discovery/': 60 * 3,  // 3 minutes
+        },
 
         // These are the only URLs that should be cached
         // (key: URL; value: TTL [time to live] in seconds).
