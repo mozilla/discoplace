@@ -1,19 +1,27 @@
+{% include "_app.html" %}
+
+
+
 <div class="container">
     <section class="main">
         <div>
             <h1>{{ _('10 Great Firefox Desktop Apps You Should Try') }}</h1>
+            {% defer (url=api('collection', ['desktop-discovery']), id='collection', as='collection', key=slug) %}
             <ol class="listing">
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
-                {% include "_app.html" %}
+                {% for result in this.apps %}
+                    <li class="item result app c">
+                        {{ simple_market_tile(result, link=true, src='osc', tray=False) }}
+                    </li>
+                {% endfor %}
             </ol>
+            {% placeholder %}
+                <p class="spinner alt spaced"></p>
+            {% except %}
+              <div class="detailed-error">
+                <h2>{{ _('Oh no!') }}</h2>
+                <p>{{ _('We had a problem loading the list of apps. Please try again later.') }}</p>
+              </div>
+            {% end %}
         </div>
     </section>
     <section class="sidebar">
