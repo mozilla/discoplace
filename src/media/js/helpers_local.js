@@ -1,6 +1,10 @@
-define('helpers_local', ['nunjucks'], function(nunjucks) {
+define('helpers_local',
+    ['content-ratings', 'nunjucks'],
+    function(content_ratings, nunjucks) {
     var filters = nunjucks.require('filters');
     var globals = nunjucks.require('globals');
+
+    globals.iarc_names = content_ratings.names;
 
     // filters.myFilter = function(text) {...
 

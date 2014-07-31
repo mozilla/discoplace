@@ -5,6 +5,13 @@
         <h3>{{ app.name|translate(app) }}</h3>
         <div class="author lineclamp vital subdetail">{{ app.author }}</div>
         <button class="button product install"> Free </button>
+        {% if app.content_ratings.rating %}
+            <div class="content-rating lineclamp vital subdetail" itemprop="content-rating">
+                {{ iarc_names.ratings[app.content_ratings.body][app.content_ratings.rating] }}
+            </div>
+        {% else %}
+            <div class="content-rating lineclamp vital subdetail">{{ _('Not yet rated') }}</div>
+        {% endif %}
         <div class="rating vital">
             {% set rating = app.ratings.average|round %}
             <span class="stars" title="Rated {{ rating }} out of 5 stars">
