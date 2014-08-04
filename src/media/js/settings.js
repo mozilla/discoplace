@@ -42,7 +42,8 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         switches: [],
 
-        tracking_id: 'UA-36116321-6',
+        tracking_enabled: true,
+        ua_tracking_id: 'UA-36116321-6',
 
         title_suffix: ''
     });

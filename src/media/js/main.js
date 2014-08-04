@@ -15,6 +15,7 @@ define(
         'log',
         'navigation',
         'templates',
+        'tracking',
         'utils',
         'z'
     ],
