@@ -1,0 +1,154 @@
+#: /templates/_app.html:12
+msgid "Not yet rated"
+msgstr "Not yet rated"
+
+#: /templates/_app.html:20
+msgid "{n} Review"
+msgid_plural "{n} Reviews"
+msgstr[0] "{n} Review"
+msgstr[1] "{n} Reviews"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Close"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Yes"
+
+#: /templates/header.html:0
+msgid "10 Great Firefox Desktop Apps You Should Try"
+msgstr "10 Great Firefox Desktop Apps You Should Try"
+
+#: /templates/header.html:3
+msgid "Search for apps"
+msgstr "Search for apps"
+
+#: /templates/main.html:39
+msgid "Enter your email..."
+msgstr "Enter your email..."
+
+#: /templates/main.html:40
+msgid "Sign up"
+msgstr "Sign up"
+
+#: /templates/main.html:43
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: /templates/main.html:47
+msgid "Signing up..."
+msgstr "Signing up..."
+
+#: /templates/main.html:51
+msgid "You were successfully signed up for the Marketplace newsletter!"
+msgstr "You were successfully signed up for the Marketplace newsletter!"
+
+#: /templates/main.html:54
+msgid "There was an error submitting your newsletter sign up request. Please try again later."
+msgstr "There was an error submitting your newsletter sign up request. Please try again later."
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
+
+#. (de) ab 0 Jahren.
+#: /media/js/content-ratings.js:9
+msgid "For ages {0}+"
+msgstr "For ages {0}+"
+
+#: /media/js/content-ratings.js:15
+msgid "Generic"
+msgstr "Generic"
+
+#: /media/js/content-ratings.js:22
+msgid "For all ages"
+msgstr "For all ages"
+
+#: /media/js/content-ratings.js:31
+msgid "Rating Pending"
+msgstr "Rating Pending"
+
+#: /media/js/content-ratings.js:32
+msgid "Rating Refused"
+msgstr "Rating Refused"
+
+#: /media/js/content-ratings.js:35
+msgid "Everyone"
+msgstr "Everyone"
+
+#: /media/js/content-ratings.js:36
+msgid "Everyone 10+"
+msgstr "Everyone 10+"
+
+#: /media/js/content-ratings.js:37
+msgid "Teen"
+msgstr "Teen"
+
+#: /media/js/content-ratings.js:38
+msgid "Mature 17+"
+msgstr "Mature 17+"
+
+#: /media/js/content-ratings.js:39
+msgid "Adults Only 18+"
+msgstr "Adults Only 18+"
+
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "You have been signed out"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "You have been signed in"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Error signing out"
+
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona login failed. Maybe you don't have an account under that email address?"
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona login failed. A server error was encountered."
+
+#: /media/js/commonplace/login.js:262
+msgid "Persona cannot be reached. Try again later."
+msgstr "Persona cannot be reached. Try again later."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "No internet connection"
+
+#. {n} is the number of characters left.
+#: /media/js/commonplace/utils.js:28
+msgid "<b>{n}</b> character left."
+msgid_plural "<b>{n}</b> characters left."
+msgstr[0] "<b>{n}</b> character left."
+msgstr[1] "<b>{n}</b> characters left."
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "Not Found"

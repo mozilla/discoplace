@@ -1,0 +1,174 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-04T15:35:51.266Z\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/_app.html:12
+msgid "Not yet rated"
+msgstr "Ƞǿŧ ẏḗŧ řȧŧḗḓ"
+
+#: /templates/_app.html:20
+msgid "{n} Review"
+msgid_plural "{n} Reviews"
+msgstr[0] "{ƞ} Řḗṽīḗẇ"
+msgstr[1] "{ƞ} Řḗṽīḗẇş"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Ƈŀǿşḗ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ƞǿ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ẏḗş"
+
+#: /templates/header.html:0
+msgid "10 Great Firefox Desktop Apps You Should Try"
+msgstr "10 Ɠřḗȧŧ Ƒīřḗƒǿẋ Ḓḗşķŧǿƥ Ȧƥƥş Ẏǿŭ Şħǿŭŀḓ Ŧřẏ"
+
+#: /templates/header.html:3
+msgid "Search for apps"
+msgstr "Şḗȧřƈħ ƒǿř ȧƥƥş"
+
+#: /templates/main.html:39
+msgid "Enter your email..."
+msgstr "Ḗƞŧḗř ẏǿŭř ḗḿȧīŀ..."
+
+#: /templates/main.html:40
+msgid "Sign up"
+msgstr "Şīɠƞ ŭƥ"
+
+#: /templates/main.html:43
+msgid "Privacy Policy"
+msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
+
+#: /templates/main.html:47
+msgid "Signing up..."
+msgstr "Şīɠƞīƞɠ ŭƥ..."
+
+#: /templates/main.html:51
+msgid "You were successfully signed up for the Marketplace newsletter!"
+msgstr "Ẏǿŭ ẇḗřḗ şŭƈƈḗşşƒŭŀŀẏ şīɠƞḗḓ ŭƥ ƒǿř ŧħḗ Ḿȧřķḗŧƥŀȧƈḗ ƞḗẇşŀḗŧŧḗř!"
+
+#: /templates/main.html:54
+msgid "There was an error submitting your newsletter sign up request. Please try again later."
+msgstr ""
+"Ŧħḗřḗ ẇȧş ȧƞ ḗřřǿř şŭƀḿīŧŧīƞɠ ẏǿŭř ƞḗẇşŀḗŧŧḗř şīɠƞ ŭƥ řḗɋŭḗşŧ. Ƥŀḗȧşḗ ŧřẏ "
+"ȧɠȧīƞ ŀȧŧḗř."
+
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"
+
+#. (de) ab 0 Jahren.
+#: /media/js/content-ratings.js:9
+msgid "For ages {0}+"
+msgstr "Ƒǿř ȧɠḗş {0}+"
+
+#: /media/js/content-ratings.js:15
+msgid "Generic"
+msgstr "Ɠḗƞḗřīƈ"
+
+#: /media/js/content-ratings.js:22
+msgid "For all ages"
+msgstr "Ƒǿř ȧŀŀ ȧɠḗş"
+
+#: /media/js/content-ratings.js:31
+msgid "Rating Pending"
+msgstr "Řȧŧīƞɠ Ƥḗƞḓīƞɠ"
+
+#: /media/js/content-ratings.js:32
+msgid "Rating Refused"
+msgstr "Řȧŧīƞɠ Řḗƒŭşḗḓ"
+
+#: /media/js/content-ratings.js:35
+msgid "Everyone"
+msgstr "Ḗṽḗřẏǿƞḗ"
+
+#: /media/js/content-ratings.js:36
+msgid "Everyone 10+"
+msgstr "Ḗṽḗřẏǿƞḗ 10+"
+
+#: /media/js/content-ratings.js:37
+msgid "Teen"
+msgstr "Ŧḗḗƞ"
+
+#: /media/js/content-ratings.js:38
+msgid "Mature 17+"
+msgstr "Ḿȧŧŭřḗ 17+"
+
+#: /media/js/content-ratings.js:39
+msgid "Adults Only 18+"
+msgstr "Ȧḓŭŀŧş Ǿƞŀẏ 18+"
+
+#: /media/js/commonplace/login.js:8
+msgid "You have been signed out"
+msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
+
+#: /media/js/commonplace/login.js:12
+msgid "You have been signed in"
+msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ īƞ"
+
+#: /media/js/commonplace/login.js:49
+msgid "Error signing out"
+msgstr "Ḗřřǿř şīɠƞīƞɠ ǿŭŧ"
+
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr ""
+"Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ "
+"ȧḓḓřḗşş?"
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿř ẇȧş ḗƞƈǿŭƞŧḗřḗḓ."
+
+#: /media/js/commonplace/login.js:262
+msgid "Persona cannot be reached. Try again later."
+msgstr "Ƥḗřşǿƞȧ ƈȧƞƞǿŧ ƀḗ řḗȧƈħḗḓ. Ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
+
+#. {n} is the number of characters left.
+#: /media/js/commonplace/utils.js:28
+msgid "<b>{n}</b> character left."
+msgid_plural "<b>{n}</b> characters left."
+msgstr[0] "<b>{ƞ}</b> ƈħȧřȧƈŧḗř ŀḗƒŧ."
+msgstr[1] "<b>{ƞ}</b> ƈħȧřȧƈŧḗřş ŀḗƒŧ."
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "Ƞǿŧ Ƒǿŭƞḓ"
