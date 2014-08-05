@@ -11,9 +11,8 @@ fabdeploytools.envs.loadenv(settings.CLUSTER)
 ROOT, DISCOPLACE = helpers.get_app_dirs(__file__)
 
 COMMONPLACE = '%s/node_modules/commonplace/bin' % DISCOPLACE
-GRUNT = '%s/node_modules/grunt-cli/bin' % DISCOPLACE
 
-os.environ["PATH"] += os.pathsep + os.pathsep.join([COMMONPLACE, GRUNT])
+os.environ["PATH"] += os.pathsep + os.pathsep.join([COMMONPLACE])
 
 
 @task
