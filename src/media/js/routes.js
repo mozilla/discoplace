@@ -2,7 +2,8 @@
 
 // Please leave quotes around keys! They're needed for Space Heater.
 var routes = window.routes = [
-    {'pattern': '^/$', 'view_name': 'main'},
+    {'pattern': '^/discovery/$', 'view_name': 'main'},
+    {'pattern': '^/$', 'view_name': 'main'}
 ];
 
 // Only `require.js` has `window.require.defined`, so we can use this to
