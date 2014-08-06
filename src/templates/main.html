@@ -6,7 +6,7 @@
         <ol class="listing">
             {% for result in this.apps %}
                 <li class="item result app c">
-                    {{ simple_market_tile(result, link=true, src='osc', tray=False) }}
+                    {{ simple_market_tile(result) }}
                 </li>
             {% endfor %}
         </ol>
@@ -41,7 +41,7 @@
                 <button class="button" type="submit">{{ _('Sign up') }}</button>
             </p>
             <p class="privacy">
-                <a href="/privacy-policy" target="_parent">{{ _('Privacy Policy') }}</a>
+                <a href="/privacy-policy?src=disco" target="_parent">{{ _('Privacy Policy') }}</a>
             </p>
         </form>
         <p class="fullup processing hidden">
@@ -59,7 +59,7 @@
     <div>
         <h3> {{ _('Game Time') }} </h3>
         <p> {{ _('Check out our full catalog of desktop games.') }} </p>
-        <p> <a href="/category/games" target="_parent">{{ _('See Games') }}</a> </p>
+        <p> <a href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
     </div>
 
     <div>
