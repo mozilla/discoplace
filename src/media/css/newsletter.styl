@@ -1,0 +1,70 @@
+@import 'lib.styl'
+
+#search-q {
+    background: #f4f4f4 url(../img/search.svg) 200px 50% no-repeat;
+    background-size: 34px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    color: #cbcbcb;
+    font: 400 30px/34px $open-stack;
+    height: 60px;
+    margin: 30px 0;
+    outline: none;
+    padding: 0 0 0 250px;
+    width: 65%;
+    z-index: 2;
+
+    &::-moz-placeholder {
+        color: darken($cement-gray, 5%);
+    }
+    &:focus {
+        border-color: #72cfff;
+    }
+}
+
+.newsletter-promo {
+  position: relative;
+
+  input[type="email"], button {
+    border-radius: 5px;
+    box-sizing: content-box;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    margin-left: 0.2rem;
+    min-width: inherit;
+    padding: 0.2rem 0.6rem;
+  }
+
+  form {
+    margin: 1rem 0;
+  }
+
+  .privacy {
+    margin-left: 0.5rem;
+  }
+
+  .fullup {
+    align-items: center;
+    background: $white;display: flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+
+  .fullup span {
+    margin: 0.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

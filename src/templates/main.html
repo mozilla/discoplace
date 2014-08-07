@@ -1,74 +1,70 @@
 {% include "_app.html" %}
 
 <section class="main">
+    {% defer (url=api('collection', ['desktop-discovery']), id='collection', as='collection', key=slug) %}
+    <ol class="listing">
+        {% for result in this.apps %}
+            <li class="item result app c">
+                {{ simple_market_tile(result) }}
+            </li>
+        {% endfor %}
+    </ol>
+    {% placeholder %}
+        <p class="spinner alt spaced"></p>
+    {% except %}
+      <div class="detailed-error">
+        <h2>{{ _('Oh no!') }}</h2>
+        <p>{{ _('We had a problem loading the list of apps. Please try again later.') }}</p>
+      </div>
+    {% end %}
+</section>
+<section class="search">
+    <form novalidate method="GET" id="search" class="search" action="/search" target="_parent">
+        <input type="hidden" name="src" value="disco">
+        <input id="search-q" class="query-input" type="search" name="q" title="" x-inputmode="verbatim"
+               autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="{{ _('Search apps') }}" required
+               value="">
+    </form>
+</section>
+<section class="promo gametime">
+    <h3> {{ _('Game Time') }} </h3>
+    <p> {{ _('Check out our full catalog of desktop games.') }} </p>
+    <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
+</section>
+<section class="promo gamesonthego">
+    <h3> {{ _('Games on the go') }} </h3>
+    <p> {{ _('Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!') }} </p>
+    <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('View') }}</a> </p>
+</section>
+<section class="promo opensearch">
+    <h3> {{ _('Find Firefox Apps from any page') }} </h3>
     <div>
-        {% defer (url=api('collection', ['desktop-discovery']), id='collection', as='collection', key=slug) %}
-        <ol class="listing">
-            {% for result in this.apps %}
-                <li class="item result app c">
-                    {{ simple_market_tile(result) }}
-                </li>
-            {% endfor %}
-        </ol>
-        {% placeholder %}
-            <p class="spinner alt spaced"></p>
-        {% except %}
-          <div class="detailed-error">
-            <h2>{{ _('Oh no!') }}</h2>
-            <p>{{ _('We had a problem loading the list of apps. Please try again later.') }}</p>
-          </div>
-        {% end %}
+        <p> {{ _('Click the browser search arrow and select "Firefox Apps" to look for apps from any web page.') }} </p>
     </div>
 </section>
-<section class="sidebar">
-    <div class="search-promo">
-        <h3> Find Great Firefox Apps Wherever You Are </h3>
-        <div>
-            <p> Click the arrow in the browser Search bar and select "Firefox Apps." </p>
-            <p> Now you can search for Firefox Apps from any internet page! </p>
-        </div>
-    </div>
 
-    <div class="newsletter-promo">
-        <h3> Newsletter Headline </h3>
-        <p> Epudae rest aboria solori ulloreriasi que
-        net aut aut lam recestrum. Non est quundi
-        rernati re sumi. Epudae rest aboria solori
-        ulloreriasi que net aut aut lam recestrum. </p>
-        <form class="news-signup-form">
-            <p>
-                <input placeholder="{{ _('Enter your email...') }}" type="email" id="email" name="email" value="{{ email }}" required>
-                <button class="button" type="submit">{{ _('Sign up') }}</button>
-            </p>
-            <p class="privacy">
-                <a href="/privacy-policy?src=disco" target="_parent">{{ _('Privacy Policy') }}</a>
-            </p>
-        </form>
-        <p class="fullup processing hidden">
-            <span>{{ _('Signing up...') }}</span>
-            <span class="spinner alt"></span>
+{#
+<section class="promo newsletter">
+    <h3> Get Firefox Marketplace news </h3>
+    <p> Subscribe to receive monthly updates about the latest apps, games, and special offers. Let's stay in touch! </p>
+    <form class="news-signup-form">
+        <p>
+            <input placeholder="{{ _('Enter your email...') }}" type="email" id="email" name="email" value="{{ email }}" required>
+            <button class="button" type="submit">{{ _('Sign up') }}</button>
         </p>
-        <p class="fullup finished hidden">
-            {{ _('You were successfully signed up for the Marketplace newsletter!') }}
+        <p class="privacy">
+            <a href="/privacy-policy?src=disco" target="_parent">{{ _('Privacy Policy') }}</a>
         </p>
-        <p class="fullup error hidden">
-            {{ _('There was an error submitting your newsletter sign up request. Please try again later.') }}
-        </p>
-    </div>
-
-    <div>
-        <h3> {{ _('Game Time') }} </h3>
-        <p> {{ _('Check out our full catalog of desktop games.') }} </p>
-        <p> <a href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
-    </div>
-
-    <div>
-        <h3> Firefox Account Headline </h3>
-        <p> Epudae rest aboria solori ulloreriasi que
-        net aut aut lam recestrum. Non est quundi
-        rernati re sumi. Epudae rest aboria solori
-        ulloreriasi que net aut aut lam recestrum. </p>
-        </p>
-        <p> <a href="#">Sign up for a Firefox Account</a> </p>
-    </div>
+    </form>
+    <p class="fullup processing hidden">
+        <span>{{ _('Signing up...') }}</span>
+        <span class="spinner alt"></span>
+    </p>
+    <p class="fullup finished hidden">
+        {{ _('You were successfully signed up for the Marketplace newsletter!') }}
+    </p>
+    <p class="fullup error hidden">
+        {{ _('There was an error submitting your newsletter sign up request. Please try again later.') }}
+    </p>
 </section>
+#}

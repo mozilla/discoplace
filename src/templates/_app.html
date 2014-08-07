@@ -4,7 +4,7 @@
     <div class="info">
         <h3>{{ app.name|translate(app) }}</h3>
         <div class="author lineclamp vital subdetail">{{ app.author }}</div>
-        <button class="button product install"> Free </button>
+        <button class="button product install">{{ _('View') }}</button>
         {% if app.content_ratings.rating %}
             <div class="content-rating lineclamp vital subdetail" itemprop="content-rating">
                 {{ iarc_names.ratings[app.content_ratings.body][app.content_ratings.rating] }}
@@ -18,7 +18,7 @@
                 <span>{% for i in range(0, rating) %}★{% endfor %}</span>
                 {% for i in range(rating, 5) %}☆{% endfor %}
             </span>
-            <span class="cnt long">{{ _plural('{n} Review', '{n} Reviews', n=app.ratings.count) }}</span>
+            {#<span class="cnt long">{{ _plural('{n} Review', '{n} Reviews', n=app.ratings.count) }}</span>#}
         </div>
     </div>
 </a>
