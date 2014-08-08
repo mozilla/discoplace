@@ -1,4 +1,4 @@
-LOCALES=(bg bn-BD ca cs da de el en-US es eu fr ga-IE hr hu it ja ko mk nb-NO nl pa pl pt-BR ro ru sk sq sr sr-Latn ta tr zh-CN zh-TW dbg)
+LOCALES=(bg bn_BD ca cs da de el en_US es eu fr ga_IE hr hu it ja ko mk nb_NO nl pa pl pt_BR ro ru sk sq sr sr_Latn ta tr zh-CN zh_TW dbg)
 POT_FILE="locale/templates/LC_MESSAGES/messages.pot"
 INIT_FLAGS="--input=$POT_FILE --width=200 --no-translator"
 LANGPACK_DIR="src/media/locales"
