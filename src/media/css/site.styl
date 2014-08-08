@@ -110,6 +110,28 @@ section > form, section > ol, section > div {
   min-height: 284px; /* image height + 25px around it */
 }
 
+#search-q {
+    background: #f4f4f4 url(../img/search.svg) 10px 50% no-repeat;
+    background-size: 34px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    color: #cbcbcb;
+    font: 400 30px/34px $open-stack;
+    height: 60px;
+    margin: 30px 0;
+    outline: none;
+    padding: 0 10px 0 55px;
+    width: 65%;
+    z-index: 2;
+
+    &::-moz-placeholder {
+        color: darken($cement-gray, 5%);
+    }
+    &:focus {
+        border-color: #72cfff;
+    }
+}
+
 .spinner {
     spinner();
     &.alt {
