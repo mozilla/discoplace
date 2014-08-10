@@ -3,167 +3,166 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-10 11:00+0000\n"
+"Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: none\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
-"Language: zh-CN\n"
 "Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1407668442.0\n"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "尚未评级"
 
 #: /templates/_app.html:20
 msgid "{n} Review"
 msgid_plural "{n} Reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} 个评论"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: /templates/header.html:0
 msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr ""
+msgstr "十大您应该尝试的 Firefox 桌面版应用"
 
 #: /templates/header.html:3
 msgid "Search for apps"
-msgstr ""
+msgstr "搜索应用"
 
 #: /templates/main.html:39
 msgid "Enter your email..."
-msgstr ""
+msgstr "请输入您的电子邮件地址..."
 
 #: /templates/main.html:40
 msgid "Sign up"
-msgstr ""
+msgstr "注册"
 
 #: /templates/main.html:43
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私权政策"
 
 #: /templates/main.html:47
 msgid "Signing up..."
-msgstr ""
+msgstr "注册中..."
 
 #: /templates/main.html:51
 msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr ""
+msgstr "您成功注册了应用市场新闻简报！"
 
 #: /templates/main.html:54
 msgid "There was an error submitting your newsletter sign up request. Please try again later."
-msgstr ""
+msgstr "提交您的新闻简报注册请求时出错。请稍后重试。"
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
+msgstr "噢不！"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "发生错误。"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "找不到您要寻找的页面。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "载入更多时出错"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "重试"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "适合年龄 {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "一般"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "适合所有年龄"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "评级待定"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "评级被拒绝"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "所有人"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "所有 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "青少年"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "成熟的 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "仅成人 18+"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "您已登出"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "您已登录"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "Persona 登录失败。可能您没有在该电子邮件地址下的账户？"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona 登录失败。遇到了服务器错误。"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "登出出错"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona 无法到达。请稍后重试。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "没有互联网连接"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "剩余 <b>{n}</b> 个字符。"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "找不到"
