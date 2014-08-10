@@ -3,167 +3,172 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-10 19:04+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
 "Language: nl\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1407697465.0\n"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "Nog niet gewaardeerd"
 
 #: /templates/_app.html:20
 msgid "{n} Review"
 msgid_plural "{n} Reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} beoordeling"
+msgstr[1] "{n} beoordelingen"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: /templates/header.html:0
 msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr ""
+msgstr "10 geweldige Firefox desktop-apps die u kunt proberen"
 
 #: /templates/header.html:3
 msgid "Search for apps"
-msgstr ""
+msgstr "Zoeken naar apps"
 
 #: /templates/main.html:39
 msgid "Enter your email..."
-msgstr ""
+msgstr "Voer uw e-mailadres in…"
 
 #: /templates/main.html:40
 msgid "Sign up"
-msgstr ""
+msgstr "Inschrijven"
 
 #: /templates/main.html:43
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privacybeleid"
 
 #: /templates/main.html:47
 msgid "Signing up..."
-msgstr ""
+msgstr "Inschrijven…"
 
 #: /templates/main.html:51
 msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr ""
+msgstr "U bent met succes ingeschreven voor de Marketplace-nieuwsbrief!"
 
 #: /templates/main.html:54
 msgid "There was an error submitting your newsletter sign up request. Please try again later."
 msgstr ""
+"Er is een fout opgetreden bij het indienen van uw inschrijvingsverzoek voor "
+"de nieuwsbrief. Probeer het later nog eens."
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh nee!"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Er is een fout opgetreden."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "De door u gezochte pagina is niet gevonden."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Fout bij laden van meer"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Probeer het opnieuw"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Vanaf {0} jaar"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Algemeen"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Voor alle leeftijden"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Beoordeling in behandeling"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Beoordeling geweigerd"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Iedereen"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "10 jaar en ouder"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Tieners"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "17 jaar en ouder"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Alleen volwassenen 18+"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "U bent afgemeld"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "U bent aangemeld"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Aanmelden met Persona mislukt. Misschien hebt u geen account met dat "
+"e-mailadres?"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Aanmelden met Persona mislukt. Er is een serverfout opgetreden."
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Fout bij afmelden"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona is niet bereikbaar. Probeer het later nog eens."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Geen internetverbinding"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> teken resterend."
+msgstr[1] "<b>{n}</b> tekens resterend."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Niet gevonden"
