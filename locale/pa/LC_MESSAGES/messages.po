@@ -3,61 +3,62 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-10 21:03+0000\n"
+"Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
 "Language: pa\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1407704612.0\n"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "ਹਾਲੇ ਰੇਟ ਨਹੀਂ ਕੀਤਾ"
 
 #: /templates/_app.html:20
 msgid "{n} Review"
 msgid_plural "{n} Reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} ਪੜਤਾਲ"
+msgstr[1] "{n} ਪੜਤਾਲ"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "ਬੰਦ ਕਰੋ"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "ਨਹੀਂ"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "ਹਾਂ"
 
 #: /templates/header.html:0
 msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr ""
+msgstr "10 ਸਭ ਤੋਂ ਵਧੀਆ ਫਾਇਰਫਾਕਸ ਡੈਸਕਟਾਪ ਐਪ, ਜੋ ਤੁਹਾਨੂੰ ਵਰਤਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ"
 
 #: /templates/header.html:3
 msgid "Search for apps"
-msgstr ""
+msgstr "ਐਪ ਲਈ ਖੋਜ"
 
 #: /templates/main.html:39
 msgid "Enter your email..."
-msgstr ""
+msgstr "ਆਪਣਾ ਈਮੇਲ ਦਿਓ..."
 
 #: /templates/main.html:40
 msgid "Sign up"
-msgstr ""
+msgstr "ਸਾਈਨ ਅੱਪ"
 
 #: /templates/main.html:43
 msgid "Privacy Policy"
-msgstr ""
+msgstr "ਪਰਦੇਦਾਰੀ ਨੀਤੀ"
 
 #: /templates/main.html:47
 msgid "Signing up..."
-msgstr ""
+msgstr "....ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: /templates/main.html:51
 msgid "You were successfully signed up for the Marketplace newsletter!"
