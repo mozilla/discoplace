@@ -3,169 +3,174 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-11 10:45+0000\n"
+"Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
 "Language: sr\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1407753956.0\n"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "Још није оцењено"
 
 #: /templates/_app.html:20
 msgid "{n} Review"
 msgid_plural "{n} Reviews"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} преглед"
+msgstr[1] "{n} прегледа"
+msgstr[2] "{n} прегледа"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Не"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: /templates/header.html:0
 msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr ""
+msgstr "10 сјајних Firefox десктоп апликација које треба да испробате"
 
 #: /templates/header.html:3
 msgid "Search for apps"
-msgstr ""
+msgstr "Претражи апликације"
 
 #: /templates/main.html:39
 msgid "Enter your email..."
-msgstr ""
+msgstr "Унесите Вашу е-пошту..."
 
 #: /templates/main.html:40
 msgid "Sign up"
-msgstr ""
+msgstr "Региструј се"
 
 #: /templates/main.html:43
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Полиса приватности"
 
 #: /templates/main.html:47
 msgid "Signing up..."
-msgstr ""
+msgstr "Пријављујем се..."
 
 #: /templates/main.html:51
 msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr ""
+msgstr "Успешно сте се пријавили на Marketplace newsletter!"
 
 #: /templates/main.html:54
 msgid "There was an error submitting your newsletter sign up request. Please try again later."
 msgstr ""
+"Дошло је до грешке при подношењу захтева за билтен. Молимо покушајте поново "
+"касније."
 
 #: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
-msgstr ""
+msgstr "Ох не!"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Десила се грешка."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Страница коју сте тражили није пронађена."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Грешка при учитавању"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Покушај поново"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "За узраст {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Опште"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Све узрасти"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Оцена на чекању"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Оцена одбијена"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Сви"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Сви 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Тинејџери"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Узраст 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Само одрасли 18+"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Одјављени сте"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Пријављени сте"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Логовање на Persona-у је неуспешно. Можда немате налог са те адресе е-поште?"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Логовање на Persona-у је неуспешно. Дошло је до грешке на серверу."
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Грешка при одјављивању"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona се не може достићи. Покушајте поново касније."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Нема интернет конекције"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "<b>{n}</b> карактер је остао."
+msgstr[1] "<b>{n}</b> карактера је остало."
+msgstr[2] "<b>{n}</b> карактера је остало."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Није пронађено"
