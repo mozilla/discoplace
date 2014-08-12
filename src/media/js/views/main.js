@@ -7,7 +7,7 @@ define('views/main',
     // Handle newsletter signup form submit.
     z.body.on('submit', '.news-signup-form', function(e) {
         e.preventDefault();
-        var $signup = $('main').find('.newsletter-promo');
+        var $signup = $('main').find('.newsletter.promo');
 
         var $this = $(this);
         var data = {email: decodeURIComponent($this.serialize().split('=')[1])};

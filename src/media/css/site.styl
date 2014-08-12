@@ -110,26 +110,24 @@ section > form, section > ol, section > div {
   min-height: 284px; /* image height + 25px around it */
 }
 
+.newsletter {
+    /* rest of newsletter styles live in newsletter.styl, the background color
+       is kept here to easily change the colors between the different promos  */
+    background-color: #3F3CAD;
+
+    .fullup {
+      background-color: #3F3CAD;
+    }
+}
+
 #search-q {
-    background: #f4f4f4 url(../img/search.svg) 10px 50% no-repeat;
-    background-size: 34px;
-    border: 1px solid #cbcbcb;
-    border-radius: 5px;
-    color: #9e9e9e;
+    background: #f4f4f4 url(../img/search.svg) 10px 50% / 34px no-repeat;
     font: 400 30px/34px $open-stack;
     height: 60px;
     margin: 30px 0;
     outline: none;
     padding: 0 10px 0 55px;
     width: 65%;
-    z-index: 2;
-
-    &::-moz-placeholder {
-        color: #cbcbcb;
-    }
-    &:focus {
-        border-color: #72cfff;
-    }
 }
 
 .spinner {
