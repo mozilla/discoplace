@@ -1,6 +1,5 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-09T13:45:23.328Z\n"
 "PO-Revision-Date: 2014-08-09T13:45:23.328Z\n"
@@ -15,31 +14,31 @@ msgstr ""
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "Aínda non puntuado"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Pechar"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
-msgstr ""
+msgstr "10 aplicativos de escritorio esenciais"
 
 #: /templates/main.html:24
 msgid "Search apps"
-msgstr ""
+msgstr "Buscar aplicativos"
 
 #: /templates/main.html:30
 msgid "Game Time"
@@ -47,11 +46,11 @@ msgstr ""
 
 #: /templates/main.html:31
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Comprobe o noso catálogo completo de xogos de escritorio."
 
 #: /templates/main.html:32
 msgid "See Games"
-msgstr ""
+msgstr "Ver xogos"
 
 #: /templates/main.html:37
 msgid "Games on the go"
@@ -63,7 +62,7 @@ msgstr ""
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Atopar aplicativos Firefox dende calquera páxina"
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
@@ -71,101 +70,101 @@ msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh non!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Non se atopou a páxina que estaba buscando."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Erro ao cargar máis"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Tentar de novo"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Produciuse un erro."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Por idades {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Xenérico"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Para todas as idades"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Pendente de puntuación"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Rexeitouse a puntuación"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Todos"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Todos 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Adolescente"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Maduro 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Só adultos 18+"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Foi desconectado"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Foi identificado"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Produciuse un erro ao desconectarse"
 
 #: /media/js/include.js:2 /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Non foi posíbel alcanzar Mozilla Persona. Tente de novo máis tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Sen conexión á Internet"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Resta <b>{n}</b> carácter."
+msgstr[1] "Restan <b>{n}</b> caracteres."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Non se atopou"
