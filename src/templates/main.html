@@ -56,6 +56,7 @@
         <form class="news-signup-form">
             <p>
                 <input placeholder="{{ _('Enter your email address') }}" type="email" id="email" name="email" value="{{ email }}" required>
+                <input type="hidden" name="newsletter" value="about:apps" />
                 <button class="button" type="submit">{{ _('Sign up') }}</button>
             </p>
             <p class="privacy">
