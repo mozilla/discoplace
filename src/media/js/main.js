@@ -16,14 +16,11 @@ define(
         'navigation',
         'templates',
         'tracking',
-        'utils',
         'z'
     ],
 function() {
-    var capabilities = require('capabilities');
     var console = require('log')('main');
     var start_time = performance.now();
-    var utils = require('utils');
     var z = require('z');
 
     console.log('Dependencies resolved, starting init');
