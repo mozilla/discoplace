@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-09T13:45:23.328Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,16 +79,16 @@ msgstr ""
 msgid "The page you were looking for was not found."
 msgstr ""
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr ""
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
 msgstr ""
 
 #. (de) ab 0 Jahren.
@@ -132,32 +132,26 @@ msgstr ""
 msgid "Adults Only 18+"
 msgstr ""
 
-#: /media/js/include.js:2
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
 msgstr ""
 
-#: /media/js/include.js:2
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
 msgstr ""
 
-#: /media/js/include.js:2
-#: /media/js/commonplace/login.js:183
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-
-#: /media/js/include.js:2
-#: /media/js/commonplace/login.js:188
-msgid "Persona login failed. A server error was encountered."
-msgstr ""
-
-#: /media/js/include.js:2
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr ""
 
-#: /media/js/include.js:2
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr ""
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr ""
+
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr ""

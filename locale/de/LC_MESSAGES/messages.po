@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
 "PO-Revision-Date: 2014-08-10 10:52+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
@@ -14,15 +14,13 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407667979.0\n"
 
+#: /templates/_app.html:6 /templates/main.html:39
+msgid "View"
+msgstr ""
+
 #: /templates/_app.html:12
 msgid "Not yet rated"
 msgstr "Noch nicht bewertet"
-
-#: /templates/_app.html:20
-msgid "{n} Review"
-msgid_plural "{n} Reviews"
-msgstr[0] "{n} Bewertung"
-msgstr[1] "{n} Bewertungen"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -37,50 +35,52 @@ msgid "Yes"
 msgstr "Ja"
 
 #: /templates/header.html:0
-msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr "10 tolle Apps für Firefox Desktop, die Sie ausprobieren sollten"
-
-#: /templates/header.html:3
-msgid "Search for apps"
-msgstr "Nach Apps suchen"
-
-#: /templates/main.html:39
-msgid "Enter your email..."
-msgstr "Geben Sie Ihre E-Mail-Adresse ein…"
-
-#: /templates/main.html:40
-msgid "Sign up"
-msgstr "Abonnieren"
-
-#: /templates/main.html:43
-msgid "Privacy Policy"
-msgstr "Datenschutzerklärung"
-
-#: /templates/main.html:47
-msgid "Signing up..."
-msgstr "Wird abonniert…"
-
-#: /templates/main.html:51
-msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr "Sie haben erfolgreich den Marketplace-Newsletter abonniert!"
-
-#: /templates/main.html:54
-msgid "There was an error submitting your newsletter sign up request. Please try again later."
+msgid "10 Essential Desktop Apps"
 msgstr ""
-"Beim Übermitteln Ihrer Abo-Anfrage für den Newsletter ist ein Fehler "
-"aufgetreten. Bitte versuchen Sie es später erneut."
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/main.html:24
+msgid "Search apps"
+msgstr ""
+
+#: /templates/main.html:30
+msgid "Game Time"
+msgstr ""
+
+#: /templates/main.html:31
+msgid "Check out our full catalog of desktop games."
+msgstr ""
+
+#: /templates/main.html:32
+msgid "See Games"
+msgstr ""
+
+#: /templates/main.html:37
+msgid "Games on the go"
+msgstr ""
+
+#: /templates/main.html:38
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr ""
+
+#: /templates/main.html:44
+msgid "Find Firefox Apps from any page"
+msgstr ""
+
+#: /templates/main.html:46
+msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh, nein!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Die von Ihnen gesuchte Seite wurde nicht gefunden."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -131,29 +131,27 @@ msgstr "Ab 17 Jahren"
 msgid "Adults Only 18+"
 msgstr "Ab 18 Jahren"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:8
+#: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
 msgstr "Sie wurden abgemeldet"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:12
+#: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
 msgstr "Sie wurden angemeldet"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:183
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona-Anmeldung fehlgeschlagen. Haben Sie vielleicht kein Benutzerkonto "
-"unter dieser E-Mail-Adresse?"
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:188
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-Anmeldung fehlgeschlagen. Ein Server-Fehler ist aufgetreten."
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:49
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Fehler bei der Abmeldung"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:262
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona-Anmeldung fehlgeschlagen. Haben Sie vielleicht kein Benutzerkonto unter dieser E-Mail-Adresse?"
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona-Anmeldung fehlgeschlagen. Ein Server-Fehler ist aufgetreten."
+
+#: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona ist unerreichbar. Versuchen Sie es später erneut."
 

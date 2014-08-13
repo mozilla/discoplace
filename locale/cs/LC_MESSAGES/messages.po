@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05T15:27:50.271Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
 "PO-Revision-Date: 2014-08-12 10:00+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: none\n"
@@ -14,16 +14,13 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407837627.0\n"
 
+#: /templates/_app.html:6 /templates/main.html:39
+msgid "View"
+msgstr ""
+
 #: /templates/_app.html:12
 msgid "Not yet rated"
 msgstr "Dosud nehodnoceno"
-
-#: /templates/_app.html:20
-msgid "{n} Review"
-msgid_plural "{n} Reviews"
-msgstr[0] "{n} recenze"
-msgstr[1] "{n} recenze"
-msgstr[2] "{n} recenzí"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -38,50 +35,52 @@ msgid "Yes"
 msgstr "Ano"
 
 #: /templates/header.html:0
-msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr "10 skvělých aplikací pro desktopový Firefox, které byste měli vyzkoušet"
-
-#: /templates/header.html:3
-msgid "Search for apps"
-msgstr "Hledat aplikace"
-
-#: /templates/main.html:39
-msgid "Enter your email..."
-msgstr "Vložte svůj e-mail..."
-
-#: /templates/main.html:40
-msgid "Sign up"
-msgstr "Registrace"
-
-#: /templates/main.html:43
-msgid "Privacy Policy"
-msgstr "Zásady ochrany soukromí"
-
-#: /templates/main.html:47
-msgid "Signing up..."
-msgstr "Probíhá registrace..."
-
-#: /templates/main.html:51
-msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr "Přihlášení k odběru zpravodaje Marketplace proběhlo úspěšně!"
-
-#: /templates/main.html:54
-msgid "There was an error submitting your newsletter sign up request. Please try again later."
+msgid "10 Essential Desktop Apps"
 msgstr ""
-"Při přihlašování odběru zpravodaje nastala chyba. Zkuste to prosím znovu "
-"později."
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/main.html:24
+msgid "Search apps"
+msgstr ""
+
+#: /templates/main.html:30
+msgid "Game Time"
+msgstr ""
+
+#: /templates/main.html:31
+msgid "Check out our full catalog of desktop games."
+msgstr ""
+
+#: /templates/main.html:32
+msgid "See Games"
+msgstr ""
+
+#: /templates/main.html:37
+msgid "Games on the go"
+msgstr ""
+
+#: /templates/main.html:38
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr ""
+
+#: /templates/main.html:44
+msgid "Find Firefox Apps from any page"
+msgstr ""
+
+#: /templates/main.html:46
+msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ale ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Nastala chyba."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Stránka kterou hledáte, nebyla nalezena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Nastala chyba."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -132,29 +131,27 @@ msgstr "Starší 17+"
 msgid "Adults Only 18+"
 msgstr "Pouze pro dospělé 18+"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:8
+#: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
 msgstr "Byl(a) jste odhlášen(a)"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:12
+#: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
 msgstr "Byl(a) jste přihlášen(a)."
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:183
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou "
-"adresou?"
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:188
-msgid "Persona login failed. A server error was encountered."
-msgstr "Přihlášení pomocí Persona selhalo. Server navrátil chybu."
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:49
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Chyba při odhlašování"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:262
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Přihlášení pomocí Persona selhalo. Možná nemáte účet pod touto e-mailovou adresou?"
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr "Přihlášení pomocí Persona selhalo. Server navrátil chybu."
+
+#: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr "Nepodařilo se kontaktovat službu Persona. Zkuste to znovu později."
 

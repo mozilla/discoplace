@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-09T13:45:23.328Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
 "PO-Revision-Date: 2014-08-11 14:09+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: none\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407766192.0\n"
 
@@ -61,10 +60,7 @@ msgstr "Ігри на ходу"
 
 #: /templates/main.html:38
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
-msgstr ""
-"Допоможіть капітану Роджерсу прорватись крізь небезпечні астероїдні поля. Ця "
-"місія потребує швидких рухів, чітких рішень, та комп'ютер або мобільний "
-"пристрій!"
+msgstr "Допоможіть капітану Роджерсу прорватись крізь небезпечні астероїдні поля. Ця місія потребує швидких рухів, чітких рішень, та комп'ютер або мобільний пристрій!"
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
@@ -72,9 +68,7 @@ msgstr "Знайти програми Firefox з будь-якої сторін�
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
-msgstr ""
-"Клацніть вказівник пошуку браузера та виберіть \"Застосунки Firefox\" для "
-"перегляду застосунків з будь-якої сторінки."
+msgstr "Клацніть вказівник пошуку браузера та виберіть \"Застосунки Firefox\" для перегляду застосунків з будь-якої сторінки."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -84,6 +78,10 @@ msgstr "О ні!"
 msgid "The page you were looking for was not found."
 msgstr "Сторінка, яку ви шукаєте не знайдена."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Сталася помилка."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Помилка подальшого завантаження"
@@ -91,10 +89,6 @@ msgstr "Помилка подальшого завантаження"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Спробувати знову"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Сталася помилка."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -137,29 +131,27 @@ msgstr "Зрілий 17+"
 msgid "Adults Only 18+"
 msgstr "Тільки дорослі 18+"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:8
+#: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
 msgstr "Ви вийшли"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:12
+#: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
 msgstr "Ви увійшли"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:183
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Помилка входу Persona. Можливо у вас немає облікового запису з цією адресою "
-"ел. пошти?"
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:188
-msgid "Persona login failed. A server error was encountered."
-msgstr "Помилка входу Persona. Трапилась помилка серверу."
-
-#: /media/js/include.js:2 /media/js/commonplace/login.js:49
+#: /media/js/commonplace/login.js:49
 msgid "Error signing out"
 msgstr "Помилка виходу"
 
-#: /media/js/include.js:2 /media/js/commonplace/login.js:262
+#: /media/js/commonplace/login.js:183
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Помилка входу Persona. Можливо у вас немає облікового запису з цією адресою ел. пошти?"
+
+#: /media/js/commonplace/login.js:188
+msgid "Persona login failed. A server error was encountered."
+msgstr "Помилка входу Persona. Трапилась помилка серверу."
+
+#: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr "Неможливо під'єднатись до Persona. Спробуйте знову пізніше."
 

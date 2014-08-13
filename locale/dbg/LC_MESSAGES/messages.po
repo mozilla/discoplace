@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-04T15:35:51.266Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,15 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
+#: /templates/_app.html:6
+#: /templates/main.html:39
+msgid "View"
+msgstr "Ṽīḗẇ"
+
 #: /templates/_app.html:12
 msgid "Not yet rated"
 msgstr "Ƞǿŧ ẏḗŧ řȧŧḗḓ"
-
-#: /templates/_app.html:20
-msgid "{n} Review"
-msgid_plural "{n} Reviews"
-msgstr[0] "{ƞ} Řḗṽīḗẇ"
-msgstr[1] "{ƞ} Řḗṽīḗẇş"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -36,38 +35,45 @@ msgid "Yes"
 msgstr "Ẏḗş"
 
 #: /templates/header.html:0
-msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr "10 Ɠřḗȧŧ Ƒīřḗƒǿẋ Ḓḗşķŧǿƥ Ȧƥƥş Ẏǿŭ Şħǿŭŀḓ Ŧřẏ"
+msgid "10 Essential Desktop Apps"
+msgstr "10 Ḗşşḗƞŧīȧŀ Ḓḗşķŧǿƥ Ȧƥƥş"
 
-#: /templates/header.html:3
-msgid "Search for apps"
-msgstr "Şḗȧřƈħ ƒǿř ȧƥƥş"
+#: /templates/main.html:24
+msgid "Search apps"
+msgstr "Şḗȧřƈħ ȧƥƥş"
 
-#: /templates/main.html:39
-msgid "Enter your email..."
-msgstr "Ḗƞŧḗř ẏǿŭř ḗḿȧīŀ..."
+#: /templates/main.html:30
+msgid "Game Time"
+msgstr "Ɠȧḿḗ Ŧīḿḗ"
 
-#: /templates/main.html:40
-msgid "Sign up"
-msgstr "Şīɠƞ ŭƥ"
+#: /templates/main.html:31
+msgid "Check out our full catalog of desktop games."
+msgstr "Ƈħḗƈķ ǿŭŧ ǿŭř ƒŭŀŀ ƈȧŧȧŀǿɠ ǿƒ ḓḗşķŧǿƥ ɠȧḿḗş."
 
-#: /templates/main.html:43
-msgid "Privacy Policy"
-msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
+#: /templates/main.html:32
+msgid "See Games"
+msgstr "Şḗḗ Ɠȧḿḗş"
 
-#: /templates/main.html:47
-msgid "Signing up..."
-msgstr "Şīɠƞīƞɠ ŭƥ..."
+#: /templates/main.html:37
+msgid "Games on the go"
+msgstr "Ɠȧḿḗş ǿƞ ŧħḗ ɠǿ"
 
-#: /templates/main.html:51
-msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr "Ẏǿŭ ẇḗřḗ şŭƈƈḗşşƒŭŀŀẏ şīɠƞḗḓ ŭƥ ƒǿř ŧħḗ Ḿȧřķḗŧƥŀȧƈḗ ƞḗẇşŀḗŧŧḗř!"
-
-#: /templates/main.html:54
-msgid "There was an error submitting your newsletter sign up request. Please try again later."
+#: /templates/main.html:38
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
-"Ŧħḗřḗ ẇȧş ȧƞ ḗřřǿř şŭƀḿīŧŧīƞɠ ẏǿŭř ƞḗẇşŀḗŧŧḗř şīɠƞ ŭƥ řḗɋŭḗşŧ. Ƥŀḗȧşḗ ŧřẏ "
-"ȧɠȧīƞ ŀȧŧḗř."
+"Ħḗŀƥ Ƈȧƥŧȧīƞ Řǿɠḗřş ƀŀȧşŧ ħīş ẇȧẏ ŧħřǿŭɠħ ḿḗƞȧƈīƞɠ ȧşŧḗřǿīḓ ƒīḗŀḓş. Ŧħīş "
+"ḿīşşīǿƞ řḗɋŭīřḗş ƒȧşŧ řḗƒŀḗẋḗş, şŧḗḗŀẏ řḗşǿŀṽḗ, ȧƞḓ ȧ ƈǿḿƥŭŧḗř ǿř ḿǿƀīŀḗ "
+"ḓḗṽīƈḗ!"
+
+#: /templates/main.html:44
+msgid "Find Firefox Apps from any page"
+msgstr "Ƒīƞḓ Ƒīřḗƒǿẋ Ȧƥƥş ƒřǿḿ ȧƞẏ ƥȧɠḗ"
+
+#: /templates/main.html:46
+msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr ""
+"Ƈŀīƈķ ŧħḗ ƀřǿẇşḗř şḗȧřƈħ ȧřřǿẇ ȧƞḓ şḗŀḗƈŧ \"Ƒīřḗƒǿẋ Ȧƥƥş\" ŧǿ ŀǿǿķ ƒǿř ȧƥƥş "
+"ƒřǿḿ ȧƞẏ ẇḗƀ ƥȧɠḗ."
 
 #: /templates/errors/404.html:2
 #: /templates/errors/fragment.html:1

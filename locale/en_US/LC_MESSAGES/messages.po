@@ -1,12 +1,10 @@
+#: /templates/_app.html:6 /templates/main.html:39
+msgid "View"
+msgstr "View"
+
 #: /templates/_app.html:12
 msgid "Not yet rated"
 msgstr "Not yet rated"
-
-#: /templates/_app.html:20
-msgid "{n} Review"
-msgid_plural "{n} Reviews"
-msgstr[0] "{n} Review"
-msgstr[1] "{n} Reviews"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -21,36 +19,40 @@ msgid "Yes"
 msgstr "Yes"
 
 #: /templates/header.html:0
-msgid "10 Great Firefox Desktop Apps You Should Try"
-msgstr "10 Great Firefox Desktop Apps You Should Try"
+msgid "10 Essential Desktop Apps"
+msgstr "10 Essential Desktop Apps"
 
-#: /templates/header.html:3
-msgid "Search for apps"
-msgstr "Search for apps"
+#: /templates/main.html:24
+msgid "Search apps"
+msgstr "Search apps"
 
-#: /templates/main.html:39
-msgid "Enter your email..."
-msgstr "Enter your email..."
+#: /templates/main.html:30
+msgid "Game Time"
+msgstr "Game Time"
 
-#: /templates/main.html:40
-msgid "Sign up"
-msgstr "Sign up"
+#: /templates/main.html:31
+msgid "Check out our full catalog of desktop games."
+msgstr "Check out our full catalog of desktop games."
 
-#: /templates/main.html:43
-msgid "Privacy Policy"
-msgstr "Privacy Policy"
+#: /templates/main.html:32
+msgid "See Games"
+msgstr "See Games"
 
-#: /templates/main.html:47
-msgid "Signing up..."
-msgstr "Signing up..."
+#: /templates/main.html:37
+msgid "Games on the go"
+msgstr "Games on the go"
 
-#: /templates/main.html:51
-msgid "You were successfully signed up for the Marketplace newsletter!"
-msgstr "You were successfully signed up for the Marketplace newsletter!"
+#: /templates/main.html:38
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 
-#: /templates/main.html:54
-msgid "There was an error submitting your newsletter sign up request. Please try again later."
-msgstr "There was an error submitting your newsletter sign up request. Please try again later."
+#: /templates/main.html:44
+msgid "Find Firefox Apps from any page"
+msgstr "Find Firefox Apps from any page"
+
+#: /templates/main.html:46
+msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
