@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
-"PO-Revision-Date: 2014-08-10 10:52+0000\n"
+"PO-Revision-Date: 2014-08-13 16:59+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407667979.0\n"
+"X-POOTLE-MTIME: 1407949196.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr ""
+msgstr "Ansehen"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
@@ -36,39 +36,44 @@ msgstr "Ja"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
-msgstr ""
+msgstr "10 wichtige Desktop-Apps"
 
 #: /templates/main.html:24
 msgid "Search apps"
-msgstr ""
+msgstr "Apps suchen"
 
 #: /templates/main.html:30
 msgid "Game Time"
-msgstr ""
+msgstr "Zeit für Spiele"
 
 #: /templates/main.html:31
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Sehen Sie sich unseren vollständigen Katalog für Desktop-Spiele an."
 
 #: /templates/main.html:32
 msgid "See Games"
-msgstr ""
+msgstr "Spiele ansehen"
 
 #: /templates/main.html:37
 msgid "Games on the go"
-msgstr ""
+msgstr "Spiele für unterwegs"
 
 #: /templates/main.html:38
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Helfen Sie Captain Rogers, sich seinen Weg durch gefährliche "
+"Asteroidenfelder zu schießen. Diese Mission erfordert schnelle Reflexe, "
+"stählerne Entschlossenheit und einen Computer oder ein Mobilgerät!"
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Firefox-Apps auf einer beliebigen Seite suchen"
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Klicken Sie auf den Suchpfeil im Browser und wählen Sie „Firefox-Apps“ um "
+"von einer beliebigen Webseite aus nach Apps zu suchen."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
