@@ -1,16 +1,16 @@
 define('views/main',
-    ['l10n', 'requests', 'urls', 'z'],
-    function(l10n, requests, urls, z) {
+    ['l10n', 'requests', 'urls', 'utils', 'z'],
+    function(l10n, requests, urls, utils, z) {
 
     var gettext = l10n.gettext;
 
     // Handle newsletter signup form submit.
     z.body.on('submit', '.news-signup-form', function(e) {
         e.preventDefault();
-        var $signup = $('main').find('.newsletter-promo');
+        var $signup = $('main').find('.newsletter.promo');
 
         var $this = $(this);
-        var data = {email: decodeURIComponent($this.serialize().split('=')[1])};
+        var data = utils.getVars($this.serialize());
 
         $signup.find('.processing').removeClass('hidden');
 
