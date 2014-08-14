@@ -16,14 +16,11 @@ define(
         'navigation',
         'templates',
         'tracking',
-        'utils',
         'z'
     ],
 function() {
-    var capabilities = require('capabilities');
     var console = require('log')('main');
     var start_time = performance.now();
-    var utils = require('utils');
     var z = require('z');
 
     console.log('Dependencies resolved, starting init');
@@ -41,29 +38,13 @@ function() {
         }, 1500);
     });
 
-    // Clear search field when 'clear' link is clicked.
-    $('#site-header').on('click', '.search-clear', utils._pd(function() {
-        if ($(this).hasClass('search-clear')) {
-            $('#search-q').val('').trigger('focus');
-        }
-    }));
-
     // Do some last minute template compilation.
     z.page.on('reload_chrome', function() {
         console.log('Reloading chrome');
         var nunjucks = require('templates');
-        $('#site-header').html(
-            nunjucks.env.render('header.html'));
-
-        z.body.toggleClass('logged-in', require('user').logged_in());
+        $('#site-header').html(nunjucks.env.render('header.html'));
         z.page.trigger('reloaded_chrome');
     }).trigger('reload_chrome');
-
-    z.body.on('click', '.site-header .back', function(e) {
-        e.preventDefault();
-        console.log('← button pressed');
-        require('navigation').back();
-    });
 
     // Perform initial navigation.
     console.log('Triggering initial navigation');
