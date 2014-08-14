@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
-"PO-Revision-Date: 2014-08-11 10:45+0000\n"
+"PO-Revision-Date: 2014-08-14 05:07+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407753956.0\n"
+"X-POOTLE-MTIME: 1407992828.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr ""
+msgstr "Прикажи"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
@@ -36,39 +37,44 @@ msgstr "Да"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
-msgstr ""
+msgstr "10 основних десктоп апликација"
 
 #: /templates/main.html:24
 msgid "Search apps"
-msgstr ""
+msgstr "Претражи апликације"
 
 #: /templates/main.html:30
 msgid "Game Time"
-msgstr ""
+msgstr "Време играња"
 
 #: /templates/main.html:31
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Погледајте цео каталог десктоп игрица."
 
 #: /templates/main.html:32
 msgid "See Games"
-msgstr ""
+msgstr "Погледај игрице"
 
 #: /templates/main.html:37
 msgid "Games on the go"
-msgstr ""
+msgstr "Игре у покрету"
 
 #: /templates/main.html:38
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Помогните капетану Rogers да пронађе свој пут кроз поља претећих астероида. "
+"Ова мисија захтева брзе рефлексе, челичну одлучност и рачунар или мобилни "
+"уређај!"
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Пронађи Firefox апликације са било које странице"
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Клинкните на стрелицу за претраживање прегледача и одаберите \"Firefox "
+"апликације\" да би сте прегледали апликације на било којој веб страници."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
