@@ -4,12 +4,22 @@
   position: relative;
   text-align: center;
 
+  &::after {
+    content: none;
+  }
+
   a {
     text-decoration: none;
   }
 
   & > div {
-    padding: 25px 160px;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  & > div > p {
+    margin: 0;
+    max-width: 100%;
   }
 
   input[type="email"], button {
@@ -18,7 +28,8 @@
   }
 
   input[type="email"] {
-    min-width: 380px;
+    flex-grow: 1;
+    min-width: 200px;
   }
 
   form p {

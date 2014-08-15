@@ -31,6 +31,8 @@ header {
   background-image: url(../img/rocket-bg.svg);
   background-color: #7270C0;
   padding-top: 30px;
+  background-size: 180px;
+  background-position: 80px 35px;
 }
 
 header::after {
@@ -67,51 +69,84 @@ section > form, section > ol, section > div {
 
 .search {
   background-color: #3F3CAD;
+  padding: 30px;
   text-align: center;
-  padding: 0; /* we set a margin on the search input instead */
 }
 
 .promo {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
   font-weight: 300;
   font-size: 20px;
-}
+  justify-content: space-around;
 
-.promo h3 {
-  font-size: 20px;
-  color: #fff;
-  line-height: 24px;
+  h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  & > div, &::after {
+    background-position: 30px center;
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    flex: 1;
+    min-width: 250px;
+    padding: 20px 30px;
+    text-align: right;
+  }
+
+  & > div > p {
+    margin-left: auto;
+    max-width: 320px;
+  }
+
+  &.inverted > div, &.inverted::after {
+    order: 2;
+    text-align: left;
+  }
+
+  &.inverted::after {
+    background-position: right 30px center;
+    order: 1;
+  }
+
+  &.inverted > div > p {
+    margin-left: 0;
+    margin-right: auto;
+  }
 }
 
 .gametime {
   background-color: #4F4DB3;
 }
 
-.gametime > div {
-  padding: 60px 540px 0 180px;
-  text-align: right;
-  background: url(../img/gametime-promo.png) no-repeat 490px 25px;
-  min-height: 250px; /* image height + 25px around it */
+.gametime::after {
+  background-image: url(../img/gametime-promo.png);
+  min-height: 200px;
+  min-width: 270px;
 }
 
 .gamesonthego {
   background-color: #615EB9;
 }
 
-.gamesonthego > div {
-  padding: 60px 80px 0 490px;
-  background: url(../img/gamesonthego-promo.png) no-repeat 60px 25px;
-  min-height: 293px; /* image height + 25px around it */
+.gamesonthego::after {
+  background-image: url(../img/gamesonthego-promo.png);
+  min-height: 243px;
+  min-width: 364px;
 }
 
 .opensearch {
   background-color: #7270C0;
 }
 
-.opensearch > div {
-  padding: 80px 540px 0 90px;
-  text-align: right;
-  background: url(../img/opensearch-promo.png) no-repeat 490px 25px;
-  min-height: 284px; /* image height + 25px around it */
+.opensearch::after {
+  background-image: url(../img/opensearch-promo.png);
+  min-height: 216px;
+  min-width: 250px;
 }
 
 .newsletter {
@@ -128,10 +163,11 @@ section > form, section > ol, section > div {
     background: #f4f4f4 url(../img/search.svg) 10px 50% / 34px no-repeat;
     font: 400 30px/34px $open-stack;
     height: 60px;
-    margin: 30px 0;
+    margin: 0;
+    max-width: 620px;
     outline: none;
     padding: 0 10px 0 55px;
-    width: 65%;
+    width: 100%;
 }
 
 .spinner {

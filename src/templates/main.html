@@ -19,7 +19,7 @@
     {% end %}
 </section>
 <section class="search">
-    <form novalidate method="GET" id="search" class="search" action="/search" target="_parent">
+    <form novalidate method="GET" id="search" action="/search" target="_parent">
         <input type="hidden" name="src" value="disco">
         <input id="search-q" class="query-input" type="search" name="q" title="" x-inputmode="verbatim"
                autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="{{ _('Search apps') }}" required
@@ -33,7 +33,7 @@
         <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
     </div>
 </section>
-<section class="promo gamesonthego">
+<section class="promo gamesonthego inverted">
     <div>
         <h3> {{ _('Games on the go') }} </h3>
         <p> {{ _('Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!') }} </p>
@@ -43,9 +43,7 @@
 <section class="promo opensearch">
     <div>
         <h3> {{ _('Find Firefox Apps from any page') }} </h3>
-        <div>
-            <p> {{ _('Click the browser search arrow and select "Firefox Apps" to look for apps from any web page.') }} </p>
-        </div>
+        <p> {{ _('Click the browser search arrow and select "Firefox Apps" to look for apps from any web page.') }} </p>
     </div>
 </section>
 {#
