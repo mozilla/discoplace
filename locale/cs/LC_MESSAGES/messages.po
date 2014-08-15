@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
-"PO-Revision-Date: 2014-08-12 10:00+0000\n"
+"PO-Revision-Date: 2014-08-15 08:11+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: none\n"
 "Language: cs\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407837627.0\n"
+"X-POOTLE-MTIME: 1408090289.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr ""
+msgstr "Zobrazit"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
@@ -36,39 +36,43 @@ msgstr "Ano"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
-msgstr ""
+msgstr "10 základních desktopových aplikací"
 
 #: /templates/main.html:24
 msgid "Search apps"
-msgstr ""
+msgstr "Vyhledat aplikace"
 
 #: /templates/main.html:30
 msgid "Game Time"
-msgstr ""
+msgstr "Čas na hry"
 
 #: /templates/main.html:31
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Podívejte se do našeho katalogu, který je plný her pro desktop."
 
 #: /templates/main.html:32
 msgid "See Games"
-msgstr ""
+msgstr "Podívejte se na hry"
 
 #: /templates/main.html:37
 msgid "Games on the go"
-msgstr ""
+msgstr "Hry na cestu"
 
 #: /templates/main.html:38
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Pomozte kapitánu Rogerovi zvládnout jeho cestu přes hrozivé asteroidy. Tato "
+"mise vyžaduje rychlé reflexy, velké odhodlání a počítač či mobilní zařízení!"
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Nalezněte aplikace pro Firefox na libovolné stránce"
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Klepněte šipku u vyhledávání v prohlížeči a zvolte \"Firefox Apps\". Budete "
+"tak moci nalézt aplikace na libovolné webové stránce."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
