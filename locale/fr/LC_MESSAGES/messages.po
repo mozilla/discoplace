@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-18 22:07+0000\n"
+"Last-Translator: SphinxKnight <sphinx_knight@hotmail.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1408399671.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
@@ -19,19 +20,19 @@ msgstr ""
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "Pas encore notée"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
@@ -71,19 +72,19 @@ msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh non&nbsp;!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "La page que vous recherchez est introuvable."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Une erreur s'est produite."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Erreur lors du chargement de pages supplémentaires"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
@@ -92,23 +93,23 @@ msgstr ""
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Pour un public de plus de {0} ans"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Générique"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Pour tout âge"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Notation en attente"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Notation refusée"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
@@ -116,7 +117,7 @@ msgstr ""
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Tout public de plus de 10 ans"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
@@ -124,11 +125,11 @@ msgstr ""
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Plus de 17 ans"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Plus de 18 ans"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
@@ -136,36 +137,38 @@ msgstr ""
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Vous êtes connecté(e)"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Erreur lors de la déconnexion"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"La connexion avec Persona a échoué. Avez-vous vraiment un compte associé à "
+"cette adresse électronique&nbsp;?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "La connexion avec Persona a échoué. Une erreur serveur s'est produite."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Le serveur Persona n'est pas joignable. Réessayez plus tard."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Pas de connexion internet"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> caractère restant."
+msgstr[1] "<b>{n}</b> caractères restants."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Page introuvable"
