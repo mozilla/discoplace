@@ -3,170 +3,178 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-08-21 21:32+0000\n"
+"Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: none\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1408656744.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr ""
+msgstr "Zobraziť"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
-msgstr ""
+msgstr "Doteraz nehodnotené"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Zavrieť"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Áno"
 
 #: /templates/header.html:0
 msgid "10 Essential Desktop Apps"
-msgstr ""
+msgstr "10 základných aplikácií pre stolový počítač"
 
 #: /templates/main.html:24
 msgid "Search apps"
-msgstr ""
+msgstr "Vyhľadať aplikácie"
 
 #: /templates/main.html:30
 msgid "Game Time"
-msgstr ""
+msgstr "Čas na hry"
 
 #: /templates/main.html:31
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Pozrite sa do nášho katalógu, ktorý je plný hier pre stolové počítače."
 
 #: /templates/main.html:32
 msgid "See Games"
-msgstr ""
+msgstr "Pozrite sa na hry"
 
 #: /templates/main.html:37
 msgid "Games on the go"
-msgstr ""
+msgstr "Hry na cestu"
 
 #: /templates/main.html:38
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Pomôžte kapitánovi Rogerovi zvládnuť cestu cez hrozivé asteroidy. Táto misia "
+"vyžaduje rýchle reflexy, veľké odhodlanie a počítač, alebo mobilné "
+"zariadenie!"
 
 #: /templates/main.html:44
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Nájdite aplikácie pre Firefox na ľubovolnej stránke"
 
 #: /templates/main.html:46
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Kliknite na šipku pri vyhľadávaní v prehliadači a vyberte \"Firefox Apps\". "
+"Následne budete môcť nájsť aplikácie na ľubovoľnej webovej stránke."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Ale nie!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Stránka, ktorú hľadáte, nebola nájdená."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Nastala chyba."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Chyba pri načítaní viacerých záznamov"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Skúsiť znova"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Pre vek {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Obecné"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Pre všetky vekové skupiny"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Čaká sa na hodnotenie"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Hodnotenie zamietnuté"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Ktokoľvek"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Ktokoľvek 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Mládež"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Starší 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Len pre dospelých 18+"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Boli ste odhlásený"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Boli ste prihlásený"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Chyba pri odhlasovaní"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Prihlásenie pomocou služby Persona zlyhalo. Možno nemáte účet pod touto "
+"e-mailovou adresou?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Prihlásenie pomocou služby Persona zlyhalo. Server ohlásil chybu."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Nepodarilo sa kontaktovať službu Presona. Skúste to neskôr znova."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Pripojenie k Internetu nie je dostupné"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ostáva <b>{n}</b> znak"
+msgstr[1] "Ostávajú <b>{n}</b> znaky"
+msgstr[2] "Ostáva <b>{n}</b> znakov"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Nenájdené"
