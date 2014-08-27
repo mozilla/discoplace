@@ -31,11 +31,21 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         offline_cache_enabled: offline_cache_enabled,
         offline_cache_limit: 1024 * 1024 * 4, // 4 MB
 
-        // The list of models and their primary key mapping. Used by caching.
-        model_prototypes: {
-             'app': 'slug',
-             'collection': 'slug',
-         },
+         // The list of models and their primary key mapping. Used by caching.
+         model_prototypes: {
+            'app': 'slug',
+            'category': 'slug',
+            'collection': 'slug',
+
+            'feed-app': 'slug',
+            'feed-brand': 'slug',
+            'feed-collection': 'slug',
+            'feed-shelf': 'slug',
+
+            // Dummy prototypes to facilitate testing:
+            'dummy': 'id',
+            'dummy2': 'id'
+        },
 
         fragment_error_template: 'errors/fragment.html',
         pagination_error_template: 'errors/pagination.html',

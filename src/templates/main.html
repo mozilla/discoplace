@@ -1,7 +1,7 @@
 {% include "_app.html" %}
 
 <section class="main">
-    {% defer (url=anonApi('collection', ['desktop-discovery']), id='collection', as='collection', key=slug) %}
+    {% defer (url=anonApi('collection', ['desktop-discovery'])) %}
     <ol class="listing">
         {% for result in this.apps %}
             <li class="item result app c">
