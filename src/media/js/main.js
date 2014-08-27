@@ -38,17 +38,8 @@ function() {
         }, 1500);
     });
 
-    // Do some last minute template compilation.
-    z.page.on('reload_chrome', function() {
-        console.log('Reloading chrome');
-        var nunjucks = require('templates');
-        $('#site-header').html(nunjucks.env.render('header.html'));
-        z.page.trigger('reloaded_chrome');
-    }).trigger('reload_chrome');
-
     // Perform initial navigation.
     console.log('Triggering initial navigation');
     z.page.trigger('navigate', [window.location.pathname + window.location.search]);
-
     console.log('Initialization complete');
 });

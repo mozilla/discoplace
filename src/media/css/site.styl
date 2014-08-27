@@ -10,7 +10,7 @@ a {
    color: $sailor-blue;
 
    &:hover {
-       text-decoration: underline;
+       text-decoration: none;
    }
    &:not([href]) {
        cursor: pointer;
@@ -18,156 +18,149 @@ a {
 }
 
 body {
-  background: #1e1e9c;
-  color: $white;
-  overflow-y: scroll;
+  background: $salt-flat-white;
+  color: $grey-gardens-gray;
 }
 
-h2, h3 {
-  color: $white;
-}
-
-header {
-  background-image: url(../img/rocket-bg.svg);
-  background-color: #7270C0;
-  padding-top: 30px;
-  background-size: 180px;
-  background-position: 80px 35px;
-}
-
-header::after {
-  content: "";
-  display: block;
-  height: 70px;
-  background-image: url(../img/curved-background.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
+h1, h2, h3 {
+  color: $dark-gray;
+  text-align: center;
 }
 
 h1 {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 23px;
 }
 
 #page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 960px;
+}
+
+section {
+  width: 100%;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 25px 0;
+
+  &:before {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    margin: 0 14px 0 4px;
+    width: 48px;
+    height: 48px;
+  }
+
+  input {
+    font: 300 16px $open-stack;
+    margin: 0;
+    max-width: 450px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  input[type=button] {
+    font-size: 14px;
+    margin-left: -2px;
+    padding: 0 10px;
+    width: auto;
+  }
 }
 
 .main {
-  padding-bottom: 15px;
-}
+  padding-bottom: 22px;
 
-section > form, section > ol, section > div {
-    max-width: 960px;
-    margin-right: auto;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: auto;
-}
+    margin-right: auto;
+  }
 
-.search {
-  background-color: #3F3CAD;
-  padding: 30px;
-  text-align: center;
+  li {
+    display: block;
+
+    h3 {
+      font-size: 13px;
+      color: #636363;
+      line-height: normal;
+      margin: 9px 0 11px 0;
+    }
+
+    div {
+      background: rgba(255, 165, 0, 0.6);
+      border-radius: 5px;
+      display: block;
+      height: 120px;
+      position: relative;
+      width: 290px;
+    }
+
+    img {
+      border-radius: 5px;
+      left: 113px;
+      position: absolute;
+      top: 28px;
+    }
+  }
 }
 
 .promo {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  font-weight: 300;
-  font-size: 20px;
-  justify-content: space-around;
+  background-color: #DADADA;
+  background-position: center 31px;
+  background-repeat: no-repeat;
+  background-size: auto 160px;
+  flex-grow: 1;
+  padding-top: 214px;
+  width: 320px;
 
   h3 {
-    color: #fff;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
   }
 
-  & > div, &::after {
-    background-position: 30px center;
-    background-repeat: no-repeat;
-    display: block;
-    content: "";
-    flex: 1;
-    min-width: 250px;
-    padding: 20px 30px;
-    text-align: right;
-  }
-
-  & > div > p {
-    margin-left: auto;
-    max-width: 320px;
-  }
-
-  &.inverted > div, &.inverted::after {
-    order: 2;
-    text-align: left;
-  }
-
-  &.inverted::after {
-    background-position: right 30px center;
-    order: 1;
-  }
-
-  &.inverted > div > p {
-    margin-left: 0;
-    margin-right: auto;
+  p {
+    font-size: 13px;
+    margin: 11px 0 16px 0;
+    padding: 0px 40px;
+    text-align: center;
   }
 }
 
 .gametime {
-  background-color: #4F4DB3;
+  background-image: url(../img/gametime-promo.png);
+  min-height: 200px; 
 }
 
-.gametime::after {
-  background-image: url(../img/gametime-promo.png);
-  min-height: 200px;
-  min-width: 270px;
+.gametime p {
+  padding: 0px 70px;
 }
 
 .gamesonthego {
-  background-color: #615EB9;
-}
-
-.gamesonthego::after {
   background-image: url(../img/gamesonthego-promo.png);
   min-height: 243px;
-  min-width: 364px;
+  order: 3;
+}
+
+.gamesonthego p {
+  padding: 0 10px;
 }
 
 .opensearch {
-  background-color: #7270C0;
-}
-
-.opensearch::after {
   background-image: url(../img/opensearch-promo.png);
   min-height: 216px;
-  min-width: 250px;
-}
-
-.newsletter {
-    /* rest of newsletter styles live in newsletter.styl, the background color
-       is kept here to easily change the colors between the different promos  */
-    background-color: #3F3CAD;
-
-    .fullup {
-      background-color: #3F3CAD;
-    }
-}
-
-#search-q {
-    background: #f4f4f4 url(../img/search.svg) 10px 50% / 34px no-repeat;
-    font: 400 30px/34px $open-stack;
-    height: 60px;
-    margin: 0;
-    max-width: 620px;
-    outline: none;
-    padding: 0 10px 0 55px;
-    width: 100%;
 }
 
 .spinner {

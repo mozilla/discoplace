@@ -28,22 +28,21 @@ input:-moz-placeholder {
     color: #cbcbcb;
 }
 
-input[type=email], input[type=text], input[type=url], input[type=search], select, textarea {
-    background-color: #f4f4f4;
-    border-radius: 5px;
-    border: 1px solid #cbcbcb;
-    color: #888;
+input[type=email], input[type=text], input[type=url], input[type=search], input[type=button], button, select, textarea {
+    background: $white;
+    border: 2px solid #DEDEDE;
+    color: $dark-gray;
     padding: 5px;
 
-    &[disabled], &[readonly] {
-        background: $seavan-salt-white;
-        color: $earl-gray;
-        cursor: not-allowed;
-    }
     &:focus {
-        border-color: #72cfff;
+        border-color: $border-blue;
     }
 }
+
+input[type=button], button {
+    background: #FBFBFB;
+}
+
 
 select {
     padding: 0;

@@ -1,25 +1,6 @@
 {% macro simple_market_tile(app) %}
 <a class="product mkt-tile " href="/app/{{ app.slug }}?src=disco" target="_parent">
     <img class="icon" alt="" src="{{ app.icons['64'] }}" height="64" width="64">
-    <div class="info">
-        <h3>{{ app.name|translate(app) }}</h3>
-        <div class="author lineclamp vital subdetail">{{ app.author }}</div>
-        <button class="button product install">{{ _('View') }}</button>
-        {% if app.content_ratings.rating %}
-            <div class="content-rating lineclamp vital subdetail" itemprop="content-rating">
-                {{ iarc_names.ratings[app.content_ratings.body][app.content_ratings.rating] }}
-            </div>
-        {% else %}
-            <div class="content-rating lineclamp vital subdetail">{{ _('Not yet rated') }}</div>
-        {% endif %}
-        <div class="rating vital">
-            {% set rating = app.ratings.average|round %}
-            <span class="stars" title="Rated {{ rating }} out of 5 stars">
-                <span>{% for i in range(0, rating) %}★{% endfor %}</span>
-                {% for i in range(rating, 5) %}☆{% endfor %}
-            </span>
-            {#<span class="cnt long">{{ _plural('{n} Review', '{n} Reviews', n=app.ratings.count) }}</span>#}
-        </div>
-    </div>
+    <h3>{{ app.name|translate(app) }}</h3>
 </a>
 {% endmacro %}

@@ -1,14 +1,26 @@
-{% include "_app.html" %}
-
+<section class="search">
+    <form novalidate method="GET" id="search" action="/search" target="_parent">
+        <input type="hidden" name="src" value="disco">
+        <input id="search-q" type="search" name="q" title="" x-inputmode="verbatim"
+               autocapitalize="off" autocomplete="off" autocorrect="off" required value="">
+        <input type="button" value="{{ _('Search') }}" />
+    </form>
+</section>
 <section class="main">
-    {% defer (url=anonApi('collection', ['desktop-discovery'])) %}
-    <ol class="listing">
-        {% for result in this.apps %}
-            <li class="item result app c">
-                {{ simple_market_tile(result) }}
+    {# FIXME: The collection endpoint doesn't seem to correctly obey the limit parameter,
+              but we'll replace it by the feed endpoint in bug 1048366 anyway #}
+    {% defer (url=anonApi('collection', ['desktop-discovery'])|urlparams(limit=9)) %}
+    <h1>{{ _('{count} Essential Desktop Apps', count=this.apps.length) }}</h1>
+    <ul>
+        {% for app in this.apps %}
+            <li>
+                <a href="/app/{{ app.slug }}?src=disco" target="_parent">
+                    <div><img alt="" src="{{ app.icons['64'] }}" height="64" width="64"></div>
+                    <h3>{{ app.name|translate(app) }} {{ loop.index }}</h3>
+                </a>
             </li>
         {% endfor %}
-    </ol>
+    </ul>
     {% placeholder %}
         <p class="spinner alt spaced"></p>
     {% except %}
@@ -18,14 +30,6 @@
       </div>
     {% end %}
 </section>
-<section class="search">
-    <form novalidate method="GET" id="search" action="/search" target="_parent">
-        <input type="hidden" name="src" value="disco">
-        <input id="search-q" class="query-input" type="search" name="q" title="" x-inputmode="verbatim"
-               autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="{{ _('Search apps') }}" required
-               value="">
-    </form>
-</section>
 <section class="promo gametime">
     <div>
         <h3> {{ _('Game Time') }} </h3>
@@ -33,7 +37,7 @@
         <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
     </div>
 </section>
-<section class="promo gamesonthego inverted">
+<section class="promo gamesonthego">
     <div>
         <h3> {{ _('Games on the go') }} </h3>
         <p> {{ _('Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!') }} </p>

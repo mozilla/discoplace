@@ -1,22 +1,24 @@
 @import 'lib';
 
 .button, .button:visited {
-    background: #4cb1ff;
-    border: 0;
-    border-bottom: 2px solid #1793e5;
-    border-radius: 5px;
-    color: $white;
-    display: inline-block;
-    font: 500 14px $open-stack;
-    white-space: nowrap;
-    padding: 4px 10px;
-    text-align: center;
+  background: #4cb1ff;
+  border: 0;
+  border-bottom: 2px solid #1793e5;
+  border-radius: 5px;
+  color: $white;
+  display: inline-block;
+  font: 500 14px $open-stack;
+  min-width: 60px;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover, &:focus {
+    gradient-two-color(darken(#4cb1ff, 10%), darken(#1793e5, 10%));
     text-decoration: none;
-    &:hover, &:focus {
-        gradient-two-color(darken(#4cb1ff, 10%), darken(#1793e5, 10%));
-        text-decoration: none;
-    }
-    &:hover, &:focus, &:active {
-        color: darken($white, 10%);
-    }
+  }
+  &:hover, &:focus, &:active {
+    color: darken($white, 10%);
+  }
 }
