@@ -1,20 +1,20 @@
 @import 'lib';
 
 * {
-   box-sizing: border-box;
-   word-wrap: break-word;
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 a {
-   text-decoration: none;
-   color: $sailor-blue;
+  text-decoration: none;
+  color: $sailor-blue;
 
-   &:hover {
-       text-decoration: none;
-   }
-   &:not([href]) {
-       cursor: pointer;
-   }
+  &:hover {
+    text-decoration: none;
+  }
+  &:not([href]) {
+    cursor: pointer;
+  }
 }
 
 body {
@@ -164,25 +164,26 @@ section {
 }
 
 .spinner {
-    spinner();
-    &.alt {
-        spinner-alt-image();
-    }
-    &.btn-replace {
-        spinner-abs();
-        top: 24px;
-    }
-    &.spaced {
-        margin: 70px auto;
-    }
-    &.padded {
-        padding: 70px 0;
-    }
+  spinner();
+
+  &.alt {
+    spinner-alt-image();
+  }
+  &.btn-replace {
+    spinner-abs();
+    top: 24px;
+  }
+  &.spaced {
+    margin: 70px auto;
+  }
+  &.padded {
+    padding: 70px 0;
+  }
 }
 
 @keyframes spin {
-    from { transform: rotate(0turn); }
-    to { transform: rotate(1turn); }
+  from { transform: rotate(0turn); }
+  to { transform: rotate(1turn); }
 }
 
 footer, #lightbox {
