@@ -1,5 +1,5 @@
 <section class="search">
-    <form novalidate method="GET" id="search" action="/search" target="_parent">
+    <form novalidate method="GET" id="search" action="/search" target="_blank">
         <input type="hidden" name="src" value="disco">
         <input id="search-q" type="search" name="q" title="" x-inputmode="verbatim"
                autocapitalize="off" autocomplete="off" autocorrect="off" required value="">
@@ -14,7 +14,7 @@
     <ul>
         {% for app in this.apps %}
             <li>
-                <a href="/app/{{ app.slug }}?src=disco" target="_parent">
+                <a href="/app/{{ app.slug }}?src=disco" target="_blank">
                     <div><img alt="" src="{{ app.icons['64'] }}" height="64" width="64"></div>
                     <h3>{{ app.name|translate(app) }} {{ loop.index }}</h3>
                 </a>
@@ -34,14 +34,14 @@
     <div>
         <h3> {{ _('Game Time') }} </h3>
         <p> {{ _('Check out our full catalog of desktop games.') }} </p>
-        <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('See Games') }}</a> </p>
+        <p> <a class="button" href="/category/games?src=disco" target="_blank">{{ _('See Games') }}</a> </p>
     </div>
 </section>
 <section class="promo gamesonthego">
     <div>
         <h3> {{ _('Games on the go') }} </h3>
         <p> {{ _('Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!') }} </p>
-        <p> <a class="button" href="/category/games?src=disco" target="_parent">{{ _('View') }}</a> </p>
+        <p> <a class="button" href="/app/captain-rogers?src=disco" target="_blank">{{ _('View') }}</a> </p>
     </div>
 </section>
 <section class="promo opensearch">
@@ -62,7 +62,7 @@
                 <button class="button" type="submit">{{ _('Sign up') }}</button>
             </p>
             <p class="privacy">
-                <a href="/privacy-policy?src=disco" target="_parent">{{ _('Privacy Policy') }}</a>
+                <a href="/privacy-policy?src=disco" target="_blank">{{ _('Privacy Policy') }}</a>
             </p>
         </form>
         <p class="fullup processing hidden">
