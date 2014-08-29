@@ -16,7 +16,7 @@
             <li>
                 <a href="/app/{{ app.slug }}?src=disco" target="_blank">
                     <div><img alt="" src="{{ app.icons['64'] }}" height="64" width="64"></div>
-                    <h3>{{ app.name|translate(app) }} {{ loop.index }}</h3>
+                    <h3>{{ app.name|translate(app) }}</h3>
                 </a>
             </li>
         {% endfor %}
