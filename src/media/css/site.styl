@@ -37,14 +37,16 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
 }
 
 section {
   width: 100%;
+}
+
+section > div, section > form {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #search {
@@ -164,12 +166,16 @@ section {
 
 .promo {
   background-color: #DADADA;
-  background-position: center 31px;
-  background-repeat: no-repeat;
-  background-size: auto 160px;
-  flex-grow: 1;
-  padding-top: 214px;
-  width: 320px;
+  flex-grow: 4;
+  flex-basis: 320px;
+
+  & > div {
+    background-position: center 31px;
+    background-repeat: no-repeat;
+    background-size: auto 160px;
+    padding-top: 214px;
+    width: 320px;
+  }
 
   h3 {
     font-size: 18px;
@@ -183,8 +189,9 @@ section {
   }
 }
 
-.gametime {
+.gametime > div {
   background-image: url(../img/gametime-promo.png);
+  margin-right: 0;
   min-height: 200px; 
 }
 
@@ -193,9 +200,13 @@ section {
 }
 
 .gamesonthego {
-  background-image: url(../img/gamesonthego-promo.png);
-  min-height: 243px;
   order: 3;
+}
+
+.gamesonthego > div {
+  background-image: url(../img/gamesonthego-promo.png);
+  margin-left: 0;
+  min-height: 243px;
 }
 
 .gamesonthego p {
@@ -203,8 +214,21 @@ section {
 }
 
 .opensearch {
+  flex-grow: 1;
+}
+
+.opensearch > div {
   background-image: url(../img/opensearch-promo.png);
   min-height: 216px;
+}
+
+/* if we can't fit the 3 promos on the same row, don't try to align their 
+   contents to the left/right, leave them centered */
+@media (max-width: 960px) {
+  .promo > div {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .spinner {
