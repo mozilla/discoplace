@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-09-05 13:43+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: none\n"
@@ -14,65 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409924622.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Visa"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Ej betygsatt"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Stäng"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nej"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 viktiga skrivbordsappar"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Sök appar"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Speltid"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Kolla in vårt fulla sortiment av skrivbordsspel."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Se spel"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Spel på språng"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Hjälp kapten Rogers spränga sig igenom hotfulla asteroidfält. Detta uppdrag "
-"kräver snabba reflexer, vilja av stål och en dator eller mobil!"
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Hjälp kapten Rogers spränga sig igenom hotfulla asteroidfält. Detta uppdrag kräver snabba reflexer, vilja av stål och en dator eller mobil!"
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Visa"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Hitta Firefox-appar från valfri sida"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Klicka på sökmotorspilen i webbläsaren och välj \"Firefox Apps\" för att leta efter appar från valfri webbsida."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Klicka på sökmotorspilen i webbläsaren och välj \"Firefox Apps\" för att leta "
-"efter appar från valfri webbsida."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -82,10 +62,6 @@ msgstr "Åh nej!"
 msgid "The page you were looking for was not found."
 msgstr "Sidan du letade efter kunde inte hittas."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fel uppstod när mer skulle laddas"
@@ -93,6 +69,10 @@ msgstr "Fel uppstod när mer skulle laddas"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Försök igen"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -149,9 +129,7 @@ msgstr "Fel vid utloggning"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona-inloggning misslyckades. Du kanske inte har ett konto med den "
-"e-postadressen registrerad?"
+msgstr "Persona-inloggning misslyckades. Du kanske inte har ett konto med den e-postadressen registrerad?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
@@ -161,16 +139,16 @@ msgstr "Persona-inloggning misslyckades. Ett serverfel uppstod."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona kan inte nås. Försök igen senare."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Ingen internetanslutning"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> tecken kvar."
 msgstr[1] "<b>{n}</b> tecken kvar."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Ingen internetanslutning"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

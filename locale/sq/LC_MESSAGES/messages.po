@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-20 14:45+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: none\n"
@@ -13,75 +13,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
-#: /templates/_app.html:6
-#: /templates/main.html:39
-msgid "View"
-msgstr "Shihni"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Ende i pavlerësuar"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Mbylle"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Jo"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Po"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 Zbatimet Bazë për Desktop"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Kërkoni zbatime"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr ""
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Shihni katalogun tonë të plotë për lojëra desktopi."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Shihni Lojëra"
 
-#: /templates/main.html:37
-msgid "Games on the go"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
 
-#: /templates/main.html:38
+#: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "Ndihmojeni Kapitenin Rogers të çajë rrugën përmes fushash të rrezikshme yllsorësh. Ky mision lyp reflekse të shpejta, vendosmëri të hekurt, dhe një kompjuter ose një pajisje celulare!"
 
-#: /templates/main.html:44
+#: /templates/main.html:43
+msgid "View"
+msgstr "Shihni"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Gjeni Zbatime Firefox prej çfarëdo faqeje"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Klikoni shigjetën e kërkimit te shfletuesi dhe përzgjidhni \"Zbatime Firefox\" që të kërkoni për zbatime në çfarëdi faqe web."
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
+msgstr ""
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Mos!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Faqja që po kërkonit nuk u gjet."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ndodhi një gabim."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -90,6 +68,10 @@ msgstr "Gabim në ngarkim të tjerash"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprovoni"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ndodhi një gabim."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -156,10 +138,6 @@ msgstr "Hyrja me Persona-n dështoi. U has një gabim shërbyesi."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Nuk kapet dot Persona. Riprovoni më vonë."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Pa lidhje internet"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -167,8 +145,11 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Edhe <b>{n}</b> shenjë."
 msgstr[1] "Edhe <b>{n}</b> shenja."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Pa lidhje internet"
+
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nuk u Gjet"
-

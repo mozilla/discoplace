@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,67 +13,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
-#: /templates/_app.html:6
-#: /templates/main.html:39
-msgid "View"
-msgstr "Ṽīḗẇ"
+#: /templates/main.html:5
+msgid "Search"
+msgstr "Şḗȧřƈħ"
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Ƞǿŧ ẏḗŧ řȧŧḗḓ"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Ƈŀǿşḗ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ƞǿ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ẏḗş"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 Ḗşşḗƞŧīȧŀ Ḓḗşķŧǿƥ Ȧƥƥş"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Şḗȧřƈħ ȧƥƥş"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Ɠȧḿḗ Ŧīḿḗ"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Ƈħḗƈķ ǿŭŧ ǿŭř ƒŭŀŀ ƈȧŧȧŀǿɠ ǿƒ ḓḗşķŧǿƥ ɠȧḿḗş."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Şḗḗ Ɠȧḿḗş"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Ɠȧḿḗş ǿƞ ŧħḗ ɠǿ"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
+msgstr "Ƥŀȧẏ Ŧħīş Ɠȧḿḗ Řīɠħŧ Ƞǿẇ"
 
-#: /templates/main.html:38
+#: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
 "Ħḗŀƥ Ƈȧƥŧȧīƞ Řǿɠḗřş ƀŀȧşŧ ħīş ẇȧẏ ŧħřǿŭɠħ ḿḗƞȧƈīƞɠ ȧşŧḗřǿīḓ ƒīḗŀḓş. Ŧħīş "
 "ḿīşşīǿƞ řḗɋŭīřḗş ƒȧşŧ řḗƒŀḗẋḗş, şŧḗḗŀẏ řḗşǿŀṽḗ, ȧƞḓ ȧ ƈǿḿƥŭŧḗř ǿř ḿǿƀīŀḗ "
 "ḓḗṽīƈḗ!"
 
-#: /templates/main.html:44
+#: /templates/main.html:43
+msgid "View"
+msgstr "Ṽīḗẇ"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Ƒīƞḓ Ƒīřḗƒǿẋ Ȧƥƥş ƒřǿḿ ȧƞẏ ƥȧɠḗ"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
 "Ƈŀīƈķ ŧħḗ ƀřǿẇşḗř şḗȧřƈħ ȧřřǿẇ ȧƞḓ şḗŀḗƈŧ \"Ƒīřḗƒǿẋ Ȧƥƥş\" ŧǿ ŀǿǿķ ƒǿř ȧƥƥş "
 "ƒřǿḿ ȧƞẏ ẇḗƀ ƥȧɠḗ."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
+msgstr "{ƈǿŭƞŧ} Ḗşşḗƞŧīȧŀ Ḓḗşķŧǿƥ Ȧƥƥş"
 
 #: /templates/errors/404.html:2
 #: /templates/errors/fragment.html:1
@@ -84,10 +67,6 @@ msgstr "Ǿħ ƞǿ!"
 msgid "The page you were looking for was not found."
 msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
@@ -95,6 +74,10 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -163,16 +146,16 @@ msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿ�
 msgid "Persona cannot be reached. Try again later."
 msgstr "Ƥḗřşǿƞȧ ƈȧƞƞǿŧ ƀḗ řḗȧƈħḗḓ. Ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{ƞ}</b> ƈħȧřȧƈŧḗř ŀḗƒŧ."
 msgstr[1] "<b>{ƞ}</b> ƈħȧřȧƈŧḗřş ŀḗƒŧ."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

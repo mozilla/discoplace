@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-30 15:12+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: none\n"
@@ -14,67 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409411561.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Mostra"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Nessun voto"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Chiudi"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "Le 10 app indispensabili per Desktop"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Ricerca app"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "È tempo di giocare"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Sfoglia l’intero catalogo dei giochi per Desktop."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Mostra giochi"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Giochi in movimento"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Aiuta il capitano Rogers a farsi largo tra una selva di asteroidi "
-"minacciosi. Questa missione richiede prontezza di riflessi, nervi saldi e un "
-"computer o un dispositivo portatile."
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Aiuta il capitano Rogers a farsi largo tra una selva di asteroidi minacciosi. Questa missione richiede prontezza di riflessi, nervi saldi e un computer o un dispositivo portatile."
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Mostra"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Trova le app Firefox mentre stai navigando sul Web"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Fai clic sulla freccia della barra di ricerca di Firefox e seleziona “Firefox apps” per cercare app indipendentemente dalla pagina che stai visualizzando."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Fai clic sulla freccia della barra di ricerca di Firefox e seleziona "
-"“Firefox apps” per cercare app indipendentemente dalla pagina che stai "
-"visualizzando."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -84,10 +62,6 @@ msgstr "Oh no!"
 msgid "The page you were looking for was not found."
 msgstr "Non è possibile trovare la pagina che stavi cercando."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Si è verificato un errore."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Errore durante il caricamento dei contenuti extra"
@@ -95,6 +69,10 @@ msgstr "Errore durante il caricamento dei contenuti extra"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprova"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -151,23 +129,15 @@ msgstr "Errore durante il tentativo di disconnessione"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Tentativo di accesso con Persona non riuscito. Sicuro di avere associato "
-"questo indirizzo email a un account Persona?"
+msgstr "Tentativo di accesso con Persona non riuscito. Sicuro di avere associato questo indirizzo email a un account Persona?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
-"Tentativo di accesso con Persona non riuscito. Si è verificato un errore del "
-"server."
+msgstr "Tentativo di accesso con Persona non riuscito. Si è verificato un errore del server."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr "Non è possibile contattare Persona. Riprova più tardi."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Connessione a internet non disponibile"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
@@ -175,6 +145,10 @@ msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> carattere rimanente."
 msgstr[1] "<b>{n}</b> caratteri rimanenti."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Connessione a internet non disponibile"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

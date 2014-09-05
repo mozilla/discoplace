@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-18 06:55+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -14,66 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408344957.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Nézet"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Még nem osztályozott"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 alapvető asztali app"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Appkeresés"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Játsszunk!"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Nézze meg asztali játékaink teljes gyűjteményét."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Játékok listája"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Játékok az útra"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Segíts Rogers századosnak átjutni a baljós aszteroidamezőkön. Ez a küldetés "
-"gyors reflexeket, vas akaratot és egy számítógépet vagy mobilkészüléket "
-"igényel!"
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Segíts Rogers századosnak átjutni a baljós aszteroidamezőkön. Ez a küldetés gyors reflexeket, vas akaratot és egy számítógépet vagy mobilkészüléket igényel!"
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Nézet"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox appok keresése bármely oldalról"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Kattintson a böngésző kereső keresőnyilára, és válassza a „Firefox appok” elemet az appok kereséséhez bármely oldalról."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Kattintson a böngésző kereső keresőnyilára, és válassza a „Firefox appok” "
-"elemet az appok kereséséhez bármely oldalról."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -83,10 +62,6 @@ msgstr "Jaj ne!"
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Nem lehet betölteni többet"
@@ -94,6 +69,10 @@ msgstr "Nem lehet betölteni többet"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -150,9 +129,7 @@ msgstr "Hiba a kijelentkezéskor"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Sikertelen Persona bejelentkezés. Lehet, hogy nem rendelkezik felhasználói "
-"fiókkal ezzel az e-mail címmel?"
+msgstr "Sikertelen Persona bejelentkezés. Lehet, hogy nem rendelkezik felhasználói fiókkal ezzel az e-mail címmel?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
@@ -162,16 +139,16 @@ msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 msgid "Persona cannot be reached. Try again later."
 msgstr "A Persona nem érhető el. Próbálja újra később."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nincs internetkapcsolat"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> karakter maradt."
 msgstr[1] "<b>{n}</b> karakter maradt."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Nincs internetkapcsolat"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

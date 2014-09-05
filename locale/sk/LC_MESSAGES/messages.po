@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-21 21:32+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: none\n"
@@ -14,66 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408656744.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Zobraziť"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Doteraz nehodnotené"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavrieť"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nie"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Áno"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 základných aplikácií pre stolový počítač"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Vyhľadať aplikácie"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Čas na hry"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Pozrite sa do nášho katalógu, ktorý je plný hier pre stolové počítače."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Pozrite sa na hry"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Hry na cestu"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Pomôžte kapitánovi Rogerovi zvládnuť cestu cez hrozivé asteroidy. Táto misia "
-"vyžaduje rýchle reflexy, veľké odhodlanie a počítač, alebo mobilné "
-"zariadenie!"
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Pomôžte kapitánovi Rogerovi zvládnuť cestu cez hrozivé asteroidy. Táto misia vyžaduje rýchle reflexy, veľké odhodlanie a počítač, alebo mobilné zariadenie!"
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Zobraziť"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Nájdite aplikácie pre Firefox na ľubovolnej stránke"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Kliknite na šipku pri vyhľadávaní v prehliadači a vyberte \"Firefox Apps\". Následne budete môcť nájsť aplikácie na ľubovoľnej webovej stránke."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Kliknite na šipku pri vyhľadávaní v prehliadači a vyberte \"Firefox Apps\". "
-"Následne budete môcť nájsť aplikácie na ľubovoľnej webovej stránke."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -83,10 +62,6 @@ msgstr "Ale nie!"
 msgid "The page you were looking for was not found."
 msgstr "Stránka, ktorú hľadáte, nebola nájdená."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Nastala chyba."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Chyba pri načítaní viacerých záznamov"
@@ -94,6 +69,10 @@ msgstr "Chyba pri načítaní viacerých záznamov"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Skúsiť znova"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Nastala chyba."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -150,9 +129,7 @@ msgstr "Chyba pri odhlasovaní"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Prihlásenie pomocou služby Persona zlyhalo. Možno nemáte účet pod touto "
-"e-mailovou adresou?"
+msgstr "Prihlásenie pomocou služby Persona zlyhalo. Možno nemáte účet pod touto e-mailovou adresou?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
@@ -162,10 +139,6 @@ msgstr "Prihlásenie pomocou služby Persona zlyhalo. Server ohlásil chybu."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Nepodarilo sa kontaktovať službu Presona. Skúste to neskôr znova."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Pripojenie k Internetu nie je dostupné"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -173,6 +146,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Ostáva <b>{n}</b> znak"
 msgstr[1] "Ostávajú <b>{n}</b> znaky"
 msgstr[2] "Ostáva <b>{n}</b> znakov"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Pripojenie k Internetu nie je dostupné"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

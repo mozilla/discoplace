@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-15 06:03+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: none\n"
@@ -14,61 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408082580.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "보기"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "평가 없음"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "닫기"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "아니오"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "예"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "상위 추천 데스크톱 앱"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "앱 검색"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "게임"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "데스크톱 게임 전체 항목 보기"
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "게임 보기"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "게임으로 가기"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
+msgstr ""
 
-#: /templates/main.html:38
+#: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "행성 지역 Captain rogers blast와 함께하여, 다양한 미션을 수행해 보세요!"
 
-#: /templates/main.html:44
+#: /templates/main.html:43
+msgid "View"
+msgstr "보기"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox 앱 찾아보기"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "검색 항목을 눌러 \"Firefox 앱\"을 웹 페이지에서 찾아봅니다."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
+msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -78,10 +62,6 @@ msgstr "아니!"
 msgid "The page you were looking for was not found."
 msgstr "찾으려는 페이지가 없습니다."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "오류가 발생했습니다."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "오류 보이기"
@@ -89,6 +69,10 @@ msgstr "오류 보이기"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도하기"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -155,15 +139,15 @@ msgstr "Persona 로그인 실패하였습니다. 서버에 오류가 있습니�
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona 로그인 실패하였습니다. 다시 시도해 보세요."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "인터넷 연결 없음"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b>자 남음"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "인터넷 연결 없음"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

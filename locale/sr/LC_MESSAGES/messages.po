@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-14 05:07+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -10,71 +10,49 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407992828.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Прикажи"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Још није оцењено"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 основних десктоп апликација"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Претражи апликације"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Време играња"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Погледајте цео каталог десктоп игрица."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Погледај игрице"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Игре у покрету"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Помогните капетану Rogers да пронађе свој пут кроз поља претећих астероида. "
-"Ова мисија захтева брзе рефлексе, челичну одлучност и рачунар или мобилни "
-"уређај!"
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Помогните капетану Rogers да пронађе свој пут кроз поља претећих астероида. Ова мисија захтева брзе рефлексе, челичну одлучност и рачунар или мобилни уређај!"
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Прикажи"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Пронађи Firefox апликације са било које странице"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Клинкните на стрелицу за претраживање прегледача и одаберите \"Firefox апликације\" да би сте прегледали апликације на било којој веб страници."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Клинкните на стрелицу за претраживање прегледача и одаберите \"Firefox "
-"апликације\" да би сте прегледали апликације на било којој веб страници."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -84,10 +62,6 @@ msgstr "Ох не!"
 msgid "The page you were looking for was not found."
 msgstr "Страница коју сте тражили није пронађена."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Десила се грешка."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при учитавању"
@@ -95,6 +69,10 @@ msgstr "Грешка при учитавању"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Покушај поново"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Десила се грешка."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -161,10 +139,6 @@ msgstr "Логовање на Persona-у је неуспешно. Дошло ј�
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona се не може достићи. Покушајте поново касније."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Нема интернет конекције"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -172,6 +146,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> карактер је остао."
 msgstr[1] "<b>{n}</b> карактера је остало."
 msgstr[2] "<b>{n}</b> карактера је остало."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нема интернет конекције"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

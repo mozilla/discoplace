@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:36.073Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
 "PO-Revision-Date: 2014-08-15 08:11+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: none\n"
@@ -14,65 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408090289.0\n"
 
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "Zobrazit"
+#: /templates/main.html:5
+msgid "Search"
+msgstr ""
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Dosud nehodnoceno"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zavřít"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ano"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 základních desktopových aplikací"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Vyhledat aplikace"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Čas na hry"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Podívejte se do našeho katalogu, který je plný her pro desktop."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "Podívejte se na hry"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Hry na cestu"
-
-#: /templates/main.html:38
-msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
 msgstr ""
-"Pomozte kapitánu Rogerovi zvládnout jeho cestu přes hrozivé asteroidy. Tato "
-"mise vyžaduje rychlé reflexy, velké odhodlání a počítač či mobilní zařízení!"
 
-#: /templates/main.html:44
+#: /templates/main.html:42
+msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
+msgstr "Pomozte kapitánu Rogerovi zvládnout jeho cestu přes hrozivé asteroidy. Tato mise vyžaduje rychlé reflexy, velké odhodlání a počítač či mobilní zařízení!"
+
+#: /templates/main.html:43
+msgid "View"
+msgstr "Zobrazit"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Nalezněte aplikace pro Firefox na libovolné stránce"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+msgstr "Klepněte šipku u vyhledávání v prohlížeči a zvolte \"Firefox Apps\". Budete tak moci nalézt aplikace na libovolné webové stránce."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
 msgstr ""
-"Klepněte šipku u vyhledávání v prohlížeči a zvolte \"Firefox Apps\". Budete "
-"tak moci nalézt aplikace na libovolné webové stránce."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -82,10 +62,6 @@ msgstr "Ale ne!"
 msgid "The page you were looking for was not found."
 msgstr "Stránka kterou hledáte, nebyla nalezena."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Nastala chyba."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Chyba při načítání více záznamů"
@@ -93,6 +69,10 @@ msgstr "Chyba při načítání více záznamů"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Zkusit znovu"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Nastala chyba."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -159,10 +139,6 @@ msgstr "Přihlášení pomocí Persona selhalo. Server navrátil chybu."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Nepodařilo se kontaktovat službu Persona. Zkuste to znovu později."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Připojení k Internetu není k dispozici"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -170,6 +146,10 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Zbývá <b>{n}</b> znak"
 msgstr[1] "Zbývají <b>{n}</b> znaky"
 msgstr[2] "Zbývá <b>{n}</b> znaků"
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Připojení k Internetu není k dispozici"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

@@ -1,58 +1,42 @@
-#: /templates/_app.html:6 /templates/main.html:39
-msgid "View"
-msgstr "View"
+#: /templates/main.html:5
+msgid "Search"
+msgstr "Search"
 
-#: /templates/_app.html:12
-msgid "Not yet rated"
-msgstr "Not yet rated"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Close"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Yes"
-
-#: /templates/header.html:0
-msgid "10 Essential Desktop Apps"
-msgstr "10 Essential Desktop Apps"
-
-#: /templates/main.html:24
-msgid "Search apps"
-msgstr "Search apps"
-
-#: /templates/main.html:30
+#: /templates/main.html:34
 msgid "Game Time"
 msgstr "Game Time"
 
-#: /templates/main.html:31
+#: /templates/main.html:35
 msgid "Check out our full catalog of desktop games."
 msgstr "Check out our full catalog of desktop games."
 
-#: /templates/main.html:32
+#: /templates/main.html:36
 msgid "See Games"
 msgstr "See Games"
 
-#: /templates/main.html:37
-msgid "Games on the go"
-msgstr "Games on the go"
+#: /templates/main.html:41
+msgid "Play This Game Right Now"
+msgstr "Play This Game Right Now"
 
-#: /templates/main.html:38
+#: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 
-#: /templates/main.html:44
+#: /templates/main.html:43
+msgid "View"
+msgstr "View"
+
+#: /templates/main.html:48
 msgid "Find Firefox Apps from any page"
 msgstr "Find Firefox Apps from any page"
 
-#: /templates/main.html:46
+#: /templates/main.html:49
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
+
+#: /templates/main.html:12
+msgid "{count} Essential Desktop Apps"
+msgstr "{count} Essential Desktop Apps"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -62,10 +46,6 @@ msgstr "Oh no!"
 msgid "The page you were looking for was not found."
 msgstr "The page you were looking for was not found."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error loading more"
@@ -73,6 +53,10 @@ msgstr "Error loading more"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Try Again"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -139,16 +123,16 @@ msgstr "Persona login failed. A server error was encountered."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona cannot be reached. Try again later."
 
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "No internet connection"
-
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> character left."
 msgstr[1] "<b>{n}</b> characters left."
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "No internet connection"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
