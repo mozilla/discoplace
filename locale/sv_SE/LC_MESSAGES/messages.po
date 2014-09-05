@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409924604.0\n"
+"X-POOTLE-MTIME: 1409924622.0\n"
 
 #: /templates/_app.html:6 /templates/main.html:39
 msgid "View"
-msgstr "Visa "
+msgstr "Visa"
 
 #: /templates/_app.html:12
 msgid "Not yet rated"
