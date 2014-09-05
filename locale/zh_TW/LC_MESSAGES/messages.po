@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-08-14 02:14+0000\n"
+"PO-Revision-Date: 2014-09-05 16:23+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407982466.0\n"
+"X-POOTLE-MTIME: 1409934239.0\n"
 
 #: /templates/main.html:5
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: /templates/main.html:34
 msgid "Game Time"
@@ -32,7 +32,7 @@ msgstr "檢視遊戲"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "立刻玩這款遊戲"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -52,7 +52,7 @@ msgstr "在任何網頁點擊瀏覽器的搜尋箭頭，並選擇「Firefox Apps
 
 #: /templates/main.html:12
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} 套精選桌面應用程式"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
