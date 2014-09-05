@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-08-13 16:59+0000\n"
+"PO-Revision-Date: 2014-09-05 17:42+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407949196.0\n"
+"X-POOTLE-MTIME: 1409938950.0\n"
 
 #: /templates/main.html:5
 msgid "Search"
-msgstr ""
+msgstr "Suchen"
 
 #: /templates/main.html:34
 msgid "Game Time"
@@ -32,7 +32,7 @@ msgstr "Spiele ansehen"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Spielen Sie dieses Spiel jetzt"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -54,7 +54,7 @@ msgstr "Klicken Sie auf den Suchpfeil im Browser und wählen Sie „Firefox-Apps
 
 #: /templates/main.html:12
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} wichtige Desktop-Apps"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
