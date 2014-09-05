@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-08-13 22:51-0400\n"
+"PO-Revision-Date: 2014-09-05 19:20-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: /templates/main.html:5
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: /templates/main.html:34
 msgid "Game Time"
@@ -31,7 +31,7 @@ msgstr "ゲームを見る"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "今すぐこのゲームをプレイ"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -51,7 +51,7 @@ msgstr "ブラウザ右上にある検索バーの矢印をクリックし「Fir
 
 #: /templates/main.html:12
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "デスクトップ向け必須アプリ {count} 選"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
