@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-09-05 19:20-0400\n"
+"PO-Revision-Date: 2014-09-06 01:15-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -31,7 +31,7 @@ msgstr "ゲームを見る"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr "今すぐこのゲームをプレイ"
+msgstr "今すぐこのゲームで遊ぶ"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
