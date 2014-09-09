@@ -4,7 +4,6 @@ define('routes_api_args', [], function() {
         // added to each API URL.
         return {
             lang: (navigator.l10n && navigator.l10n.language) || navigator.language || navigator.userLanguage,
-            region: 'restofworld'
         };
     };
 
