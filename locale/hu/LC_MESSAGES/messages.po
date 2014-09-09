@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-08-18 06:55+0000\n"
+"PO-Revision-Date: 2014-09-09 06:22+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408344957.0\n"
+"X-POOTLE-MTIME: 1410243766.0\n"
 
 #: /templates/main.html:5
 msgid "Search"
-msgstr ""
+msgstr "Keresés"
 
 #: /templates/main.html:34
 msgid "Game Time"
@@ -32,7 +32,7 @@ msgstr "Játékok listája"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Játék indítása most"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -52,7 +52,7 @@ msgstr "Kattintson a böngésző kereső keresőnyilára, és válassza a „Fir
 
 #: /templates/main.html:12
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} alapvető asztali app"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
