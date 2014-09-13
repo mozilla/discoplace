@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
-"PO-Revision-Date: 2014-08-21 21:32+0000\n"
+"PO-Revision-Date: 2014-09-13 18:34+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: none\n"
 "Language: sk\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408656744.0\n"
+"X-POOTLE-MTIME: 1410633284.0\n"
 
 #: /templates/main.html:5
 msgid "Search"
-msgstr ""
+msgstr "Hľadať"
 
 #: /templates/main.html:34
 msgid "Game Time"
@@ -32,7 +32,7 @@ msgstr "Pozrite sa na hry"
 
 #: /templates/main.html:41
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Zahrajte si hru práve teraz"
 
 #: /templates/main.html:42
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -52,7 +52,7 @@ msgstr "Kliknite na šipku pri vyhľadávaní v prehliadači a vyberte \"Firefox
 
 #: /templates/main.html:12
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} základných aplikácií pre stolový počítač"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
