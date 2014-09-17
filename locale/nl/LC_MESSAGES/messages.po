@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-09-06 06:49+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: none\n"
@@ -14,44 +14,44 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409986190.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr "Zoeken"
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "Speeltijd"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "Bekijk onze volledige catalogus met desktopspellen."
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "Spellen bekijken"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr "Dit spel nu spelen"
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "Help Captain Rogers zich een weg door dreigende asteroïdevelden te schieten. Deze missie vereist snelle reflexen, een ijzeren wil en een computer of mobiel apparaat!"
 
 # Verb or noun?
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "Weergeven"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox-apps zoeken vanaf pagina’s"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Klik op de zoekpijl in de browser en selecteer “Firefox-apps” om vanaf webpagina’s naar apps te zoeken."
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr "{count} essentiële desktop-apps"
 
@@ -63,6 +63,10 @@ msgstr "Oh nee!"
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fout bij laden van meer"
@@ -70,10 +74,6 @@ msgstr "Fout bij laden van meer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Probeer het opnieuw"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -140,16 +140,16 @@ msgstr "Aanmelden met Persona mislukt. Er is een serverfout opgetreden."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona is niet bereikbaar. Probeer het later nog eens."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Geen internetverbinding"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> teken resterend."
 msgstr[1] "<b>{n}</b> tekens resterend."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Geen internetverbinding"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

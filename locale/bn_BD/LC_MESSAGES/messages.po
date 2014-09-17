@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-08-18 07:42+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: none\n"
@@ -14,43 +14,43 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1408347773.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr ""
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "গেম টাইম"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "আমাদের ডেস্কটপ গেমের সম্পূর্ণ ক্যাটালগ দেখুন।"
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "গেম সমূহ দেখুন"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr ""
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "ক্যাপ্টেন রজার্সকে সাহায্য করুন, ক্ষতিকর গ্রহাণুপুঞ্জে পথ তৈরী করতে। এই মিশনে দরকার তড়িৎ সিদ্ধান্ত, সঠিক সমাধান, এবং একটি কম্পিউটার বা মোবাইল প্রয়োজন।"
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "দেখুন"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "যেকোনো পেজ থেকে ফায়ারফক্স অ্যাপ সমূহ খোঁজ করুন"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "যেকোনো ওয়েব পেজে অ্যাপের খোঁজ করতে - ব্রাউজারের সার্চের তীর চিহ্নতে ক্লিক করুন এবং \"ফায়ারফক্স অ্যাপস\" নির্বাচন করুন।"
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr ""
 
@@ -62,6 +62,10 @@ msgstr "আহ হা!"
 msgid "The page you were looking for was not found."
 msgstr "আপনার কাঙ্খিত পেজটি পাওয়া যায়নি।"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "একটি ত্রুটি হয়েছে।"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "আরও লোড করা যাচ্ছে না"
@@ -69,10 +73,6 @@ msgstr "আরও লোড করা যাচ্ছে না"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "একটি ত্রুটি হয়েছে।"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -139,16 +139,16 @@ msgstr "সার্ভারে সমস্যার কারনে পার
 msgid "Persona cannot be reached. Try again later."
 msgstr "পারসনার সাথে যোগাযোগ করা যাচ্ছে না। একটু পরে আবার চেষ্টা করুন।"
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "ইন্টারনেট সংযোগ নেই"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b>টি ক্যারেক্টার বাকি আছে।"
 msgstr[1] "<b>{n}</b>টি ক্যারেক্টার বাকি আছে।"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "ইন্টারনেট সংযোগ নেই"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-09-06 18:18+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: none\n"
@@ -10,48 +10,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410027515.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr "Pretraga"
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "Vreme igranja"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "Pogledajte ceo katalog desktop igrica."
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "Pogledaj igrice"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr "Igraj ovu igricu sada"
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "Pomognite kapetanu Rogers da pronađe svoj put kroz polja pretećih asteroida. Ova misija zahteva brze reflekse, čeličnu odlučnost i računar ili mobilni uređaj!"
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "Prikaži"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "Pronađi Firefox aplikacije sa bilo koje stranice"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Klinknite na strelicu za pretraživanje pregledača i odaberite \"Firefox aplikacije\" da bi ste pregledali aplikacije na bilo kojoj veb stranici."
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr "{count} bitnih desktop aplikacija"
 
@@ -63,6 +62,10 @@ msgstr "Oh ne!"
 msgid "The page you were looking for was not found."
 msgstr "Stranica koju ste tražili nije pronađena."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Desila se greška."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Greška pri učitavanju"
@@ -70,10 +73,6 @@ msgstr "Greška pri učitavanju"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Desila se greška."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -140,6 +139,10 @@ msgstr "Logovanje na Persona-u je neuspešno. Došlo je do greške na serveru."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona se ne može dostići. Pokušajte ponovo kasnije."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Nema internet konekcije"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
@@ -147,10 +150,6 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> karakter je ostao."
 msgstr[1] "<b>{n}</b> karaktera je ostalo."
 msgstr[2] "<b>{n}</b> karaktera je ostalo."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nema internet konekcije"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

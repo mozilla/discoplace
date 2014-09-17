@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-09-06 01:15-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -13,43 +13,43 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr "検索"
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "ゲームの時間"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "デスクトップ向けゲームの一覧をご覧ください。"
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "ゲームを見る"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr "今すぐこのゲームで遊ぶ"
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "キャプテン・アメリカが恐ろしい小惑星空間の中を突き進む手助けをしましょう。このミッションには、鋭い反射神経と冷静な決断力に加えて、コンピュータもしくはモバイル端末が必要とされます！"
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "表示"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox アプリを即座に検索"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "ブラウザ右上にある検索バーの矢印をクリックし「Firefox アプリ」を選択すれば、どこのページからでもアプリを見つけられます。"
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr "デスクトップ向け必須アプリ {count} 選"
 
@@ -61,6 +61,10 @@ msgstr "ページが見つかりません"
 msgid "The page you were looking for was not found."
 msgstr "お探しのページは見つかりませんでした。"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "読み込み中に問題が発生しました"
@@ -68,10 +72,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -138,16 +138,16 @@ msgstr "Persona のログインに失敗しました。サーバエラーが発�
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona サーバへ接続できませんでした。また後で試してください。"
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "インターネット未接続"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "残り <b>{n}</b> 文字"
 msgstr[1] "残り <b>{n}</b> 文字"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "インターネット未接続"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

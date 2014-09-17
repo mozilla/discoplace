@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-08-13 16:32+0000\n"
 "Last-Translator: Marcelo <mlcaraldi@gmail.com>\n"
 "Language-Team: none\n"
@@ -14,43 +14,43 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407947533.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr ""
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr ""
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr ""
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr ""
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr ""
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr ""
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr ""
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr ""
 
@@ -62,6 +62,10 @@ msgstr "Ah não!"
 msgid "The page you were looking for was not found."
 msgstr "A página que você procurava não foi encontrada."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Algo deu errado."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erro ao carregar mais registros."
@@ -69,10 +73,6 @@ msgstr "Erro ao carregar mais registros."
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tentar novamente"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Algo deu errado."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -139,16 +139,16 @@ msgstr "Erro ao conectar com o Persona. Algo deu errado no servidor."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Não conseguimos conectar com o Persona. Tente novamente em breve."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Sem conexão com a Internet."
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> caractere restante."
 msgstr[1] "<b>{n}</b> caracteres restantes."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Sem conexão com a Internet."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

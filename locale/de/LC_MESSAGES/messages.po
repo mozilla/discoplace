@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-09-05 17:42+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
@@ -14,45 +14,45 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1409938950.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr "Suchen"
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "Zeit für Spiele"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "Sehen Sie sich unseren vollständigen Katalog für Desktop-Spiele an."
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "Spiele ansehen"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr "Spielen Sie dieses Spiel jetzt"
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
 "Helfen Sie Captain Rogers, sich seinen Weg durch gefährliche Asteroidenfelder zu schießen. Diese Mission erfordert schnelle Reflexe, stählerne Entschlossenheit und einen Computer oder ein "
 "Mobilgerät!"
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "Ansehen"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox-Apps auf einer beliebigen Seite suchen"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Klicken Sie auf den Suchpfeil im Browser und wählen Sie „Firefox-Apps“ um von einer beliebigen Webseite aus nach Apps zu suchen."
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr "{count} wichtige Desktop-Apps"
 
@@ -64,6 +64,10 @@ msgstr "Oh, nein!"
 msgid "The page you were looking for was not found."
 msgstr "Die von Ihnen gesuchte Seite wurde nicht gefunden."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fehler beim Laden weiterer Informationen"
@@ -71,10 +75,6 @@ msgstr "Fehler beim Laden weiterer Informationen"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Erneut versuchen"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ein Fehler ist aufgetreten."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -141,16 +141,16 @@ msgstr "Persona-Anmeldung fehlgeschlagen. Ein Server-Fehler ist aufgetreten."
 msgid "Persona cannot be reached. Try again later."
 msgstr "Persona ist unerreichbar. Versuchen Sie es später erneut."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Keine Internetverbindung"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> Zeichen übrig."
 msgstr[1] "<b>{n}</b> Zeichen übrig."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Keine Internetverbindung"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9

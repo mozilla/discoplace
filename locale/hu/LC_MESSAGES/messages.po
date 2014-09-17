@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:11.998Z\n"
+"POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
 "PO-Revision-Date: 2014-09-09 06:22+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: none\n"
@@ -14,43 +14,43 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410243766.0\n"
 
-#: /templates/main.html:5
+#: /templates/main.html:6
 msgid "Search"
 msgstr "Keresés"
 
-#: /templates/main.html:34
+#: /templates/main.html:35
 msgid "Game Time"
 msgstr "Játsszunk!"
 
-#: /templates/main.html:35
+#: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
 msgstr "Nézze meg asztali játékaink teljes gyűjteményét."
 
-#: /templates/main.html:36
+#: /templates/main.html:37
 msgid "See Games"
 msgstr "Játékok listája"
 
-#: /templates/main.html:41
+#: /templates/main.html:42
 msgid "Play This Game Right Now"
 msgstr "Játék indítása most"
 
-#: /templates/main.html:42
+#: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr "Segíts Rogers századosnak átjutni a baljós aszteroidamezőkön. Ez a küldetés gyors reflexeket, vas akaratot és egy számítógépet vagy mobilkészüléket igényel!"
 
-#: /templates/main.html:43
+#: /templates/main.html:44
 msgid "View"
 msgstr "Nézet"
 
-#: /templates/main.html:48
+#: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
 msgstr "Firefox appok keresése bármely oldalról"
 
-#: /templates/main.html:49
+#: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr "Kattintson a böngésző kereső keresőnyilára, és válassza a „Firefox appok” elemet az appok kereséséhez bármely oldalról."
 
-#: /templates/main.html:12
+#: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
 msgstr "{count} alapvető asztali app"
 
@@ -62,6 +62,10 @@ msgstr "Jaj ne!"
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Hiba történt."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Nem lehet betölteni többet"
@@ -69,10 +73,6 @@ msgstr "Nem lehet betölteni többet"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Próbálja újra"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Hiba történt."
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -139,16 +139,16 @@ msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 msgid "Persona cannot be reached. Try again later."
 msgstr "A Persona nem érhető el. Próbálja újra később."
 
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Nincs internetkapcsolat"
+
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> karakter maradt."
 msgstr[1] "<b>{n}</b> karakter maradt."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nincs internetkapcsolat"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
