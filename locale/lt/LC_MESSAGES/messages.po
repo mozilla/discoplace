@@ -3,154 +3,163 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-09T13:45:23.328Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-09-27 12:10+0000\n"
+"Last-Translator: Rimas <rq@akl.lt>\n"
 "Language-Team: none\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1411819845.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Ieškoti"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Metas pažaisti"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Pažiūrėkite mūsų pilną kompiuterio žaidimų katalogą."
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Žiūrėti žaidimus"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Išbandykite šį žaidimą"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Padėkite kapitonui Rodžersui išsprogdinti kelią per grėsmingus asteroidų "
+"laukus. Ši misija reikalauja greitų refleksų, nuožmaus ryžto ir kompiuterio "
+"ar mobiliojo įrenginio!"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Žiūrėti"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Suraskite „Firefox“ programų iš bet kurio tinklalapio"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Spustelėkite naršyklės paieškos lauko rodyklę ir pasirinkite punktą„Firefox“ "
+"programos“, kad rastumėte programas iš bet kokio tinklalapio."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} būtiniausios(-ių) kompiuterio programos(-ų)"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "O, ne!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Ieškotas tinklalapis nerastas"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Įvyko klaida."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Klaida įkeliant"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Bandyti dar kartą"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "{0} metų ir vyresniems (N-{0})"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Amžius neribojamas"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Visoms amžiaus grupėms"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Dar neįvertinta"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Vertinimas nepriimtas"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Visiems"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Visiems (N-10)"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Paaugliams"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Ne vaikams (N-17)"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Tik suaugusiesiems (N-18)"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Jūs atsijungėte"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Jūs prisijungėte"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Klaida atsijungiant"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Nepavyko prisijungti su „Persona“. Galbūt jūs neturite paskyros su šiuo "
+"eletroninio pašto adresu?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Nepavyko prisijungti su „Persona“. Serverio klaida."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "„Personos“ tarnyba nepasiekiama. Bandykite vėliau."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Nėra interneto ryšio"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "liko <b>{n}</b> simbolis."
+msgstr[1] "liko <b>{n}</b> simboliai."
+msgstr[2] "liko <b>{n}</b> simbolių."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Nerasta"
