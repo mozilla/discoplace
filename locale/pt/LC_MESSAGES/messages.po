@@ -3,153 +3,162 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-09T13:45:23.328Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-09-27 23:03+0000\n"
+"Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1411859032.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Pesquisa"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Tempo de jogo"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Consulte o nosso catálogo completo de jogos de computador."
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Ver Jogos"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Jogar este jogo agora"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Ajude o capitão Rogers a abrir o caminho através de um campo de asteroides "
+"ameaçadores. Esta missão requer reflexos rápidos, dedicação e um computador "
+"ou um dispositivo móvel!"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Encontre aplicações Firefox a partir de qualquer página"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Clique na seta de pesquisa no navegador e selecione \"Aplicações Firefox\" "
+"para procurar por aplicações a partir de qualquer página web."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} aplicações essenciais para computador"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oh não!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "A página que procurava não foi encontrada."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Ocorreu um erro."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Erro ao carregar mais"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Tentar novamente"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Para idades superiores a {0}"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Genéricas"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Para todas as idades"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "À espera de classificação"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Classificação recusada"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Para todos"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Para todos com mais de 10 anos"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Adolescentes"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Para maiores de 17 anos"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Apenas adultos (mais de 18 anos)"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "A sua sessão foi terminada"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "A sua sessão foi iniciada"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Erro ao terminar a sessão"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
+"endereço de email?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "A autenticação com o Persona falhou. Ocorreu um erro com o servidor."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
+"Não foi possível estabelecer ligação ao Persona. Tente novamente mais tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Sem ligação à Internet"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> caractere remanescente."
+msgstr[1] "<b>{n}</b> caracteres remanescentes."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Não encontrado"
