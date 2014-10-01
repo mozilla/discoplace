@@ -130,7 +130,7 @@ echo "-----------------------------------------------"
 echo "$CHANGES"
 echo "-----------------------------------------------"
 
-Uses sendmail so we can set a real From address
+# Uses sendmail so we can set a real From address
 if confirm "Do you want to send that to $LOCALIZERS?"; then
     echo "$CHANGES" | /usr/lib/sendmail -t
 fi
