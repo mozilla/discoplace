@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1411821409.0\n"
 
@@ -37,10 +36,7 @@ msgstr "Išbandykite šį žaidimą"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
-msgstr ""
-"Padėkite kapitonui Rodžersui išsprogdinti kelią per grėsmingus asteroidų "
-"laukus. Ši misija reikalauja greitų refleksų, nuožmaus ryžto ir kompiuterio "
-"ar mobiliojo įrenginio!"
+msgstr "Padėkite kapitonui Rodžersui išsprogdinti kelią per grėsmingus asteroidų laukus. Ši misija reikalauja greitų refleksų, nuožmaus ryžto ir kompiuterio ar mobiliojo įrenginio!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -52,9 +48,7 @@ msgstr "Suraskite „Firefox“ programų iš bet kurio tinklalapio"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
-msgstr ""
-"Spustelėkite naršyklės paieškos lauko rodyklę ir pasirinkite punktą„Firefox“ "
-"programos“, kad rastumėte programas iš bet kokio tinklalapio."
+msgstr "Spustelėkite naršyklės paieškos lauko rodyklę ir pasirinkite punktą„Firefox“ programos“, kad rastumėte programas iš bet kokio tinklalapio."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
@@ -135,9 +129,7 @@ msgstr "Klaida atsijungiant"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Nepavyko prisijungti su „Persona“. Galbūt jūs neturite paskyros su šiuo "
-"eletroninio pašto adresu?"
+msgstr "Nepavyko prisijungti su „Persona“. Galbūt jūs neturite paskyros su šiuo eletroninio pašto adresu?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
