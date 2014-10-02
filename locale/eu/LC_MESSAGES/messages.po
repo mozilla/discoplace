@@ -3,153 +3,162 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-05T15:27:50.271Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-10-02 01:26+0000\n"
+"Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: none\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1412213184.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Jolas-garaia"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Arakatu gure mahaigaineko jokoen katalogo osoa."
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Ikusi jokoak"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Jolastu orain joko honetara"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Lagundu Rogers kapitainari asteroide-eremu arriskutsuetan zehar bidea "
+"egiten. Misio honetarako erreflexu onak, burdinazko irmotasuna eta "
+"ordenagailu edo gailu mugikor bat behar dituzu!"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Ikusi"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Bilatu Firefox aplikazioak edozein orritatik"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Egin klik nabigatzailearen bilatzaileko gezian eta hautatu \"Firefox Apps\" "
+"aplikazioak edozein web orritatik bilatzeko."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} mahaigaineko oinarrizko aplikazio"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Oi ez!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Bila zenbiltzan orria ez da aurkitu."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Errore bat gertatu da."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Errorea gehiago kargatzean"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Saiatu berriro"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "{0}+ urtekoentzat"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Generikoa"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Adin guztietarako"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "Sailkatu gabea"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Sailkapena ukatuta"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Edonorentzat"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "10+ urteko edonorentzat"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Nerabeentzat"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "17+ adinekoentzat"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "18+ urteko helduentzat soilik"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Saioa amaitu duzu"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Saioa hasi duzu"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Errorea saioa amaitzean"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Persona saio-hasierak huts egin du. Agian ez duzu konturik helbide "
+"elektroniko horrekin?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
 msgstr ""
+"Persona saio-hasierak huts egin du. Zerbitzariaren errore bat gertatu da."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona ezin da atzitu. Saiatu berriro geroago."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Ez dago Interneterako konexiorik"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Karaketere <b>{n}</b> gehiago duzu."
+msgstr[1] "<b>{n}</b> karaktere gehiago dituzu."
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Ez da aurkitu"
