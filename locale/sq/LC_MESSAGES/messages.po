@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-20 14:45+0200\n"
+"PO-Revision-Date: 2014-10-02 13:03+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: none\n"
 "Language: sq\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Kërkoni"
 
 #: /templates/main.html:35
 msgid "Game Time"
@@ -31,7 +31,7 @@ msgstr "Shihni Lojëra"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Luajeni Këtë Lojë Që Tani"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
@@ -51,9 +51,10 @@ msgstr "Klikoni shigjetën e kërkimit te shfletuesi dhe përzgjidhni \"Zbatime 
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} Zbatime Thelbësore Për Desktop"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Mos!"
 
@@ -153,3 +154,4 @@ msgstr[1] "Edhe <b>{n}</b> shenja."
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nuk u Gjet"
+
