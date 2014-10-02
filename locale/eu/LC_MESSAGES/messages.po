@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412213184.0\n"
+"X-POOTLE-MTIME: 1412213219.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
@@ -20,7 +20,7 @@ msgstr "Bilatu"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr "Jolas-garaia"
+msgstr "Jolaserako garaia"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
