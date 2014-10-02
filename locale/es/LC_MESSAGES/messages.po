@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-12 08:43+0000\n"
-"Last-Translator: Angela <angelavelop@gmail.com>\n"
+"PO-Revision-Date: 2014-10-02 14:09+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,47 +12,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407832998.0\n"
+"X-POOTLE-MTIME: 1412258943.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Búsqueda"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Tiempo de juego"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Echa un vistazo a nuestro catálogo completo de juegos de escritorio."
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Ver juegos"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Juega este juego ahora mismo"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Ayuda al Capitán Rogers a destruir todo a su paso en amenazadores campos de "
+"asteroides. Esta misión requiere reflejos rápidos, determinación de acero, "
+"¡y un equipo de escritorio o móvil!"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Encuentra apps de Firefox desde cualquier página"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Haz clic en la flecha de búsqueda del navegador y selecciona \"Apps de "
+"Firefox\" para buscar aplicaciones desde cualquier página web."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} apps de escritorio esenciales"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
