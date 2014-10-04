@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-08-18 22:07+0000\n"
-"Last-Translator: SphinxKnight <sphinx_knight@hotmail.fr>\n"
+"PO-Revision-Date: 2014-10-04 19:24+0000\n"
+"Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,47 +12,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408399671.0\n"
+"X-POOTLE-MTIME: 1412450681.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Rechercher"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Le temps des jeux"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Consultez notre catalogue complet de jeux de bureau."
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Voir les jeux"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Jouer à ce jeu maintenant"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Aidez le Capitaine Rogers à déblayer son chemin au travers de champs "
+"d'astéroïdes menaçants. Cette mission nécessite des réflexes rapides, une "
+"détermination à toute épreuve, et un ordinateur ou appareil mobile !"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Afficher"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Trouver des applications Firefox depuis n'importe quelle page"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Cliquez sur le champ de recherche du navigateur et sélectionnez « Firefox "
+"Apps » pour trouver des applications à partir de n'importe quelle page web. "
+"               "
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count} applications de bureau essentielles"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -72,7 +78,7 @@ msgstr "Erreur lors du chargement de pages supplémentaires"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Réessayer"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
@@ -97,7 +103,7 @@ msgstr "Notation refusée"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Tout le monde"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
@@ -105,7 +111,7 @@ msgstr "Tout public de plus de 10 ans"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Jeunes"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
@@ -117,7 +123,7 @@ msgstr "Plus de 18 ans"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Déconnexion effectuée"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
