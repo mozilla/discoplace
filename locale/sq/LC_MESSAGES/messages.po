@@ -53,8 +53,7 @@ msgstr "Klikoni shigjetën e kërkimit te shfletuesi dhe përzgjidhni \"Zbatime 
 msgid "{count} Essential Desktop Apps"
 msgstr "{count} Zbatime Thelbësore Për Desktop"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Mos!"
 
@@ -154,4 +153,3 @@ msgstr[1] "Edhe <b>{n}</b> shenja."
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nuk u Gjet"
-

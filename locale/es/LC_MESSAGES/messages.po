@@ -36,10 +36,7 @@ msgstr "Juega este juego ahora mismo"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
-msgstr ""
-"Ayuda al Capitán Rogers a destruir todo a su paso en amenazadores campos de "
-"asteroides. Esta misión requiere reflejos rápidos, determinación de acero, "
-"¡y un equipo de escritorio o móvil!"
+msgstr "Ayuda al Capitán Rogers a destruir todo a su paso en amenazadores campos de asteroides. Esta misión requiere reflejos rápidos, determinación de acero, ¡y un equipo de escritorio o móvil!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -51,9 +48,7 @@ msgstr "Encuentra apps de Firefox desde cualquier página"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
-msgstr ""
-"Haz clic en la flecha de búsqueda del navegador y selecciona \"Apps de "
-"Firefox\" para buscar aplicaciones desde cualquier página web."
+msgstr "Haz clic en la flecha de búsqueda del navegador y selecciona \"Apps de Firefox\" para buscar aplicaciones desde cualquier página web."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"

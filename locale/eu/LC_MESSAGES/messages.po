@@ -36,10 +36,7 @@ msgstr "Jolastu orain joko honetara"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
-msgstr ""
-"Lagundu Rogers kapitainari asteroide-eremu arriskutsuetan zehar bidea "
-"egiten. Misio honetarako erreflexu onak, burdinazko irmotasuna eta "
-"ordenagailu edo gailu mugikor bat behar dituzu!"
+msgstr "Lagundu Rogers kapitainari asteroide-eremu arriskutsuetan zehar bidea egiten. Misio honetarako erreflexu onak, burdinazko irmotasuna eta ordenagailu edo gailu mugikor bat behar dituzu!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -51,9 +48,7 @@ msgstr "Bilatu Firefox aplikazioak edozein orritatik"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
-msgstr ""
-"Egin klik nabigatzailearen bilatzaileko gezian eta hautatu \"Firefox Apps\" "
-"aplikazioak edozein web orritatik bilatzeko."
+msgstr "Egin klik nabigatzailearen bilatzaileko gezian eta hautatu \"Firefox Apps\" aplikazioak edozein web orritatik bilatzeko."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
@@ -134,14 +129,11 @@ msgstr "Errorea saioa amaitzean"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona saio-hasierak huts egin du. Agian ez duzu konturik helbide "
-"elektroniko horrekin?"
+msgstr "Persona saio-hasierak huts egin du. Agian ez duzu konturik helbide elektroniko horrekin?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
-"Persona saio-hasierak huts egin du. Zerbitzariaren errore bat gertatu da."
+msgstr "Persona saio-hasierak huts egin du. Zerbitzariaren errore bat gertatu da."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."

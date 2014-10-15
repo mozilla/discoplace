@@ -36,10 +36,7 @@ msgstr "Παίξτε αυτό το παιχνίδι τώρα"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
-msgstr ""
-"Βοηθήστε τον Captain Rogers να περάσει μέσα από τα πεδία των αστεροειδών. "
-"Αυτή η αποστολή απαιτεί γρήγορα αντανακλαστικά, αποφασιστικότητα και έναν "
-"υπολογιστή ή μια φορητή συσκευή!"
+msgstr "Βοηθήστε τον Captain Rogers να περάσει μέσα από τα πεδία των αστεροειδών. Αυτή η αποστολή απαιτεί γρήγορα αντανακλαστικά, αποφασιστικότητα και έναν υπολογιστή ή μια φορητή συσκευή!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -51,9 +48,7 @@ msgstr "Βρείτε εφαρμογές Firefox από οποιαδήποτε σ
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
-msgstr ""
-"Κάντε κλικ στο βελάκι αναζήτησης και επιλέξτε \"Firefox Apps\" για να βρίσκετε "
-"εφαρμογές από οποιαδήποτε σελίδα."
+msgstr "Κάντε κλικ στο βελάκι αναζήτησης και επιλέξτε \"Firefox Apps\" για να βρίσκετε εφαρμογές από οποιαδήποτε σελίδα."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
@@ -134,9 +129,7 @@ msgstr "Σφάλμα κατά την αποσύνδεση"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Η είσοδος με το Persona απέτυχε. Μήπως δεν έχετε λογαριασμό με αυτή τη "
-"διεύθυνση email;"
+msgstr "Η είσοδος με το Persona απέτυχε. Μήπως δεν έχετε λογαριασμό με αυτή τη διεύθυνση email;"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
