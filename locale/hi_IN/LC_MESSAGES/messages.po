@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-10-18 14:34+0000\n"
+"PO-Revision-Date: 2014-10-18 18:42+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413642860.0\n"
+"X-POOTLE-MTIME: 1413657737.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
@@ -24,7 +24,7 @@ msgstr "खेल समय"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr "हमारे डेस्कटॉप खेल के पुरे सूचीपत्र को जाँचे"
+msgstr "हमारे डेस्कटॉप खेल के पुरे सूचीपत्र को जाँचे."
 
 #: /templates/main.html:37
 msgid "See Games"
@@ -37,6 +37,9 @@ msgstr "इस खेल को अभी खेलें"
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"खतरनाक क्षुद्रग्रह क्षेत्रों के माध्यम से अपना रास्ता बनाने मेँ कप्तान "
+"रोजर्स कि मदद करें. इस मिशन में तेज सजगता, दृढ़ संकल्प, और एक कंप्यूटर या "
+"मोबाइल डिवाइस की आवश्यकता है!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -49,6 +52,8 @@ msgstr "Firefox एप्स किसी पन्ने से खोजें
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"ब्राउज़र खोजी निशान पर क्लिक करें और किसी भी वेब पेज से एप्प्स देखने के लिए "
+"\"Firefox एप्प्स\" का चयन करें."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
@@ -60,15 +65,15 @@ msgstr "ओह नही!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "जो पेज आप देखना चाह रहे हैं नही पाया गया"
+msgstr "जो पेज आप देखना चाह रहे हैं नही पाया गया."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr "गलती हो गयी"
+msgstr "गलती हो गयी."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "अधिक लोड करने में त्रुटि"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
@@ -77,7 +82,7 @@ msgstr "पुनः प्रयास करें"
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr "{0}+ उम्र के लिए"
+msgstr "उम्र के लिए {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
@@ -129,7 +134,7 @@ msgstr "साइन आउट में त्रुटि"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
+msgstr "परसोना लॉगिन विफल रहा. शायद उस ईमेल पते के अंतर्गत आपका खाता नहीं है?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
