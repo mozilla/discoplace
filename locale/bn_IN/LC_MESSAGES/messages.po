@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-11-19 08:05+0000\n"
-"Last-Translator: Sukanta <artistskanta@gmail.com>\n"
+"PO-Revision-Date: 2014-11-19 18:30+0000\n"
+"Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: none\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416384355.0\n"
+"X-POOTLE-MTIME: 1416421827.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
@@ -24,7 +24,7 @@ msgstr "খেলার সময়"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "ডেস্কটপে খেলাগুলোর জন্য আমাদের সম্পূর্ণ ক্যাটালগ চেক করুন।"
 
 #: /templates/main.html:37
 msgid "See Games"
@@ -32,11 +32,14 @@ msgstr "গেমগুলো দেখুন             "
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "এই খেলাটি এখনিই খেলুন।"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"ক্যাপ্টেন রজার্সকে সাহায্য করুন ভয়প্রদর্শনকারী গ্রহাণু ক্ষেত্রের মাধ্যমে "
+"তার উপায় বের করতে। এই মিশনটির জন্য প্রয়োজন দ্রুত প্রতিবর্তী ক্রিয়া, "
+"ইস্পাতের মতো মীমাংসীত এবং একটি কম্পিউটার বা মোবাইল ডিভাইস!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -44,113 +47,117 @@ msgstr "দেখুন"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "যেকোনো পৃষ্ঠা থেকে ফায়ারফক্স এপস খুঁজুন।"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"ব্রাউজারের সার্চ তীরে ক্লিক করুন এবং \"Firefox অ্যাপ্লিকেশন\" নির্বাচন করুন "
+"যেকোনো ওয়েব পেজ থেকে অ্যাপ খোঁজার জন্য।"
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{count}প্রয়োজনীয় ডেস্কটপ এপস"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "ওহ না!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "আপনি যে পৃষ্ঠাটি খুঁজছেন সেটা খুঁজে পাওয়া যায় নি ।"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr " একটি ত্রুটি ঘটেছে।"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "লোড করার সময় আরো ত্রুটি"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "চেষ্টা করুন আবার"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "বয়সের জন্য {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "জেনেরিক"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "সমস্ত বয়সের জন্য"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "নির্ধারণ বাকি আছে"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "নির্ধারণ বাতিল করা হয়েছে"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "প্রত্যেকে"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "প্রত্যেকে 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "টিন"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "পরিণত 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "কেবলমাত্র প্রাপ্তবয়স্কদের জন্য 18+"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "আপনার সাইন আউট করা হয়েছে"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "আপনার সাইন ইন করা হয়েছে"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "সাইন আউটে ত্রুটি আছে"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"পারসনা লগইন ব্যর্থ হয়েছে। হতে পারে আপনার এই ইমেলের ঠিকানার অধীনে একটিও "
+"অ্যাকাউন্ট নেই?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "পারসনা লগইন ব্যর্থ হয়েছে। একটি সার্ভারের ত্রুটির সম্মুখীন হয়েছে।"
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "পারসনা পৌঁছোতে পারছে না। পরে আবার চেষ্টা করুন।"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "কোন ইন্টারনেট সংযোগ নেই"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> অক্ষর বাকি।"
+msgstr[1] "<b>{n}</b> অক্ষর বাকি।"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "খুঁজে পাওয়া যাছে না"
