@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-10-31 12:44+0000\n"
+"PO-Revision-Date: 2014-12-02 10:13+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: none\n"
 "Language: tr\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1414759440.0\n"
+"X-POOTLE-MTIME: 1417515222.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Arama"
 
 #: /templates/main.html:35
 msgid "Game Time"
@@ -37,6 +37,9 @@ msgstr "Bu oyunu hemen oynayın"
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Göktaşı kuşaklarından geçen Kaptan Rogers'a yardım edin. Bu görev için hızlı "
+"reflekslere, çelik gibi sinirlere ve bilgisayara ya da mobil cihaza "
+"ihtiyacınız var!"
 
 #: /templates/main.html:44
 msgid "View"
@@ -49,6 +52,8 @@ msgstr "Firefox uygulamalarını her sayfadan bulun"
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"İstediğiniz web sayfasından uygulama aramak için tarayıcınızın arama okuna "
+"tıklayıp \"Firefox uygulamaları\"nı seçin."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
@@ -130,14 +135,16 @@ msgstr "Oturum kapatma hatası"
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Persona ile giriş başarısız oldu. Acaba bu e-posta adresiyle açılmış bir "
+"hesabınız olmayabilir mi?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona ile giriş başarısız oldu. Bir sunucu hatasıyla karşılaşıldı."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona'ya ulaşılamadı. Daha sonra tekrar deneyin."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
