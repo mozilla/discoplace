@@ -3,153 +3,161 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:10:39.174Z\n"
-"PO-Revision-Date: 2014-09-17T16:10:39.174Z\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2014-11-04 07:43+0000\n"
+"Last-Translator: xh-ZA19_Pumlani <pmsibula@sun.ac.za>\n"
 "Language-Team: none\n"
 "Language: xh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1415087030.0\n"
 
 #: /templates/main.html:6
 msgid "Search"
-msgstr ""
+msgstr "Khangela"
 
 #: /templates/main.html:35
 msgid "Game Time"
-msgstr ""
+msgstr "Ixesha lomdlalwana"
 
 #: /templates/main.html:36
 msgid "Check out our full catalog of desktop games."
-msgstr ""
+msgstr "Khangela ikhathalogu yethu yemidlalo ezeleyo yemidlalwana yedesktophu"
 
 #: /templates/main.html:37
 msgid "See Games"
-msgstr ""
+msgstr "Bona imidlalwana"
 
 #: /templates/main.html:42
 msgid "Play This Game Right Now"
-msgstr ""
+msgstr "Dlala Lo Mdlalwana ngoku"
 
 #: /templates/main.html:43
 msgid "Help Captain Rogers blast his way through menacing asteroid fields. This mission requires fast reflexes, steely resolve, and a computer or mobile device!"
 msgstr ""
+"Nceda uKapteni Rogers agqithe ngesantya kumadlelo obungozi esijikelezi langa "
+"esincinci. Olu bizo lufuna isenzo esinamendu, ukuzimisela okumandla, kunye "
+"nekhompyutha okanye isixhobo sefowuni ephathwayo!"
 
 #: /templates/main.html:44
 msgid "View"
-msgstr ""
+msgstr "Bona"
 
 #: /templates/main.html:49
 msgid "Find Firefox Apps from any page"
-msgstr ""
+msgstr "Fumana i-Firefox Apps kulo naliphi na iphepha"
 
 #: /templates/main.html:50
 msgid "Click the browser search arrow and select \"Firefox Apps\" to look for apps from any web page."
 msgstr ""
+"Cofa utolo lokukhangela lebhrawuza wandule ukukhetha i-\"Firefox "
+"Apps\"ukukhangela i-apps kulo naliphi na iphepha lewebhu."
 
 #: /templates/main.html:13
 msgid "{count} Essential Desktop Apps"
-msgstr ""
+msgstr "{bala} ii-Desktop Apps eziyimfuneko"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Owu hayi!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Ikhasi obulikhangela alifunyanwanga."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Kwenzeke imposiso."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Imposiso iyalayisha ngakumbi"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Zama kwakhona"
 
 #. (de) ab 0 Jahren.
 #: /media/js/content-ratings.js:9
 msgid "For ages {0}+"
-msgstr ""
+msgstr "Yobudala {0}+"
 
 #: /media/js/content-ratings.js:15
 msgid "Generic"
-msgstr ""
+msgstr "Uhlobo oluthile"
 
 #: /media/js/content-ratings.js:22
 msgid "For all ages"
-msgstr ""
+msgstr "Yabo bonke ubudala"
 
 #: /media/js/content-ratings.js:31
 msgid "Rating Pending"
-msgstr ""
+msgstr "ukalisho lulindelekile"
 
 #: /media/js/content-ratings.js:32
 msgid "Rating Refused"
-msgstr ""
+msgstr "Ukalisho lwaliwe"
 
 #: /media/js/content-ratings.js:35
 msgid "Everyone"
-msgstr ""
+msgstr "Umntu wonke"
 
 #: /media/js/content-ratings.js:36
 msgid "Everyone 10+"
-msgstr ""
+msgstr "Umntu wonke 10+"
 
 #: /media/js/content-ratings.js:37
 msgid "Teen"
-msgstr ""
+msgstr "Ulutsha"
 
 #: /media/js/content-ratings.js:38
 msgid "Mature 17+"
-msgstr ""
+msgstr "Omdala 17+"
 
 #: /media/js/content-ratings.js:39
 msgid "Adults Only 18+"
-msgstr ""
+msgstr "Abadala kuphela 18+"
 
 #: /media/js/commonplace/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Usayinelwe ukuphuma"
 
 #: /media/js/commonplace/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Usayinelwe ukungena"
 
 #: /media/js/commonplace/login.js:49
 msgid "Error signing out"
-msgstr ""
+msgstr "Imposiso ekusayineni uphume"
 
 #: /media/js/commonplace/login.js:183
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Ukungena komntu akuphumelelanga. Mhlawumbi awunayo iakhawunti ngaphantsi "
+"kwala dilesi yeimeyile?"
 
 #: /media/js/commonplace/login.js:188
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Ukungena komntu akuphumelelanga. Kuhlangenwe nemposiso yeseva."
 
 #: /media/js/commonplace/login.js:262
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Umntu akafumaneki. Zama kwakhona kamva."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "Alukho unxibelelwano lweintanethi"
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
+msgstr[0] "<b>{n}<b> ikharaktha eshiyekileyo.<b>{n}<b> iikharaktha ezishiyekileyo."
 msgstr[1] ""
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Ayifunyanwanga"
